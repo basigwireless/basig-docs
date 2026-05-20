@@ -4,7 +4,7 @@
 
 ## Download Brochure
 
-👉 **[Click here to download the 5G Hands‑On Workshop Brochure (PDF)](https://drive.google.com/file/d/13FF0SCJjiAnqD2ckIzwsyXzrLB5OYBgd/view)**
+👉 **[Click here to download the 5G Hands‑On Workshop Brochure (PDF)](5G Workshop.pdf)**
 
 ---
 
