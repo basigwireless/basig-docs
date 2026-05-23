@@ -110,10 +110,10 @@ Programs can be conducted:
 ---
 
 
-# Contact Us
+!!! info "Contact Us"
+    For more details, contact:
 
-**Chandhar Research Labs Pvt Ltd**
+    Email: **info@basigwireless.com**
 
-Website: https://chandharresearch.com
 
-Email: info@chandharresearch.com
+
