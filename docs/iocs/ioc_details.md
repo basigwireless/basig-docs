@@ -2,7 +2,7 @@
 
 ## Hands-on Training in 5G, SDR, AI for Wireless & Next-Generation Communication Systems
 
-BaSig Wireless offers Industry-Oriented Courses (IOCs) and Faculty Industrial Training Programs designed to bridge the gap between academic learning and real-world wireless communication technologies.
+BaSig Wireless offers IOCs and Faculty Industrial Training Programs designed to bridge the gap between academic learning and real-world wireless communication technologies.
 
 Our programs provide practical exposure through live demonstrations, real hardware platforms, software-defined radio systems, and 5G testbeds. The training is focused on enabling participants to gain implementation-level knowledge in modern communication systems and emerging wireless technologies.
 
