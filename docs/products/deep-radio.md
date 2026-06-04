@@ -9,19 +9,31 @@ Deep Radio is an SDR based platform, designed:
 ---
 # Technical Specifications
 
-|  | DeepRadio |  | DeepRadio Pro |  |
-|---|---|---|---|---|
-|  | Transmitter | Receiver | Transmitter | Receiver |
-| Components | Radio Unit<br>Monitor<br>Keyboard & Mouse | Radio Unit<br>Monitor<br>Keyboard & Mouse | Radio Unit<br>Monitor<br>Keyboard & Mouse | Radio Unit<br>Monitor<br>Keyboard & Mouse |
-| Memory | 128 GB SSD<br>8 GB RAM | 128 GB SSD<br>8 GB RAM | 128 GB SSD<br>16 GB RAM | 128 GB SSD<br>16 GB RAM |
-| Frequency Range | 50 MHz – 6 GHz | 50 MHz – 1700 MHz | TBD | TBD |
-| Coverage Range | 50 feet in LoS conditions | - | TBD | - |
-| Max. Sampling Rate | 20 MS/s | 2.4 MS/s | TBD | TBD |
-| No. of Antennas | 1 | 1 | TBD | TBD |
-| Capability | Transmission + Reception | Reception | Transmission + Reception | Reception |
-| Programming Language & Tools | Python, C, GNU Radio | Python, C, GNU Radio | Python, C, GNU Radio | Python, C, GNU Radio |
+## Deep Radio
 
+| Parameter | Transmitter | Receiver |
+|------------|-------------|----------|
+| Components | Radio Unit<br>Monitor<br>Keyboard & Mouse | Radio Unit<br>Monitor<br>Keyboard & Mouse |
+| Memory | 128 GB SSD<br>8 GB RAM | 128 GB SSD<br>8 GB RAM |
+| Frequency Range | 50 MHz - 6 GHz | 50 MHz - 1700 MHz |
+| Coverage Range | 50 feet in LoS conditions | - |
+| Max. Sampling Rate | 20 MS/s | 2.4 MS/s |
+| No. of Antennas | 1 | 1 |
+| Capability | Transmission + Reception | Reception |
+| Programming Language & Tools | Python, C, GNU Radio | Python, C, GNU Radio |
 
+## Deep Radio Pro
+
+| Parameter | Transmitter | Receiver |
+|------------|-------------|----------|
+| Components | Radio Unit<br>Monitor<br>Keyboard & Mouse | Radio Unit<br>Monitor<br>Keyboard & Mouse |
+| Memory | 128 GB SSD<br>8 GB RAM | 128 GB SSD<br>8 GB RAM |
+| Frequency Range | 50 MHz - 6 GHz | 50 MHz - 1700 MHz |
+| Coverage Range | 50 feet in LoS conditions | - |
+| Max. Sampling Rate | 20 MS/s | 2.4 MS/s |
+| No. of Antennas | 1 | 1 |
+| Capability | Transmission + Reception | Reception |
+| Programming Language & Tools | Python, C, GNU Radio | Python, C, GNU Radio |
 ---
 <h2 class="features">Sample Experiments</h2>
 
