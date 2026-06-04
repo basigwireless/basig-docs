@@ -110,7 +110,7 @@ Deep Radio is an SDR based platform, designed:
 ---
 ## Demos:
 
-##### [Click here to view Modulation Classification Using Deepradio](deep_radio_phase2_training_pipeline.html)
+##### [Click here to view Modulation Classification Using Deep Radio](deep_radio_phase2_training_pipeline.html)
 ---
 
 ## Product
