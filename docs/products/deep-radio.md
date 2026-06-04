@@ -9,31 +9,81 @@ Deep Radio is an SDR based platform, designed:
 ---
 # Technical Specifications
 
-## Deep Radio
 
-| Parameter | Transmitter | Receiver |
-|------------|-------------|----------|
-| Components | Radio Unit<br>Monitor<br>Keyboard & Mouse | Radio Unit<br>Monitor<br>Keyboard & Mouse |
-| Memory | 128 GB SSD<br>8 GB RAM | 128 GB SSD<br>8 GB RAM |
-| Frequency Range | 50 MHz - 6 GHz | 50 MHz - 1700 MHz |
-| Coverage Range | 50 feet in LoS conditions | - |
-| Max. Sampling Rate | 20 MS/s | 2.4 MS/s |
-| No. of Antennas | 1 | 1 |
-| Capability | Transmission + Reception | Reception |
-| Programming Language & Tools | Python, C, GNU Radio | Python, C, GNU Radio |
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Feature</th>
+      <th colspan="2">DeepRadio</th>
+      <th colspan="2">DeepRadio Pro</th>
+    </tr>
+    <tr>
+      <th>Transmitter</th>
+      <th>Receiver</th>
+      <th>Transmitter</th>
+      <th>Receiver</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Components</td>
+      <td>Radio Unit<br>Monitor<br>Keyboard &amp; Mouse</td>
+      <td>Radio Unit<br>Monitor<br>Keyboard &amp; Mouse</td>
+      <td>Radio Unit<br>Monitor<br>Keyboard &amp; Mouse</td>
+      <td>Radio Unit<br>Monitor<br>Keyboard &amp; Mouse</td>
+    </tr>
+    <tr>
+      <td>Memory</td>
+      <td>128 GB SSD<br>8 GB RAM</td>
+      <td>128 GB SSD<br>8 GB RAM</td>
+      <td>128 GB SSD<br>16 GB RAM</td>
+      <td>128 GB SSD<br>16 GB RAM</td>
+    </tr>
+    <tr>
+      <td>Frequency Range</td>
+      <td>50 MHz - 6 GHz</td>
+      <td>50 MHz - 1700 MHz</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>Coverage Range</td>
+      <td>50 feet in LoS conditions</td>
+      <td>-</td>
+      <td>TBD</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Max. Sampling Rate</td>
+      <td>20 MS/s</td>
+      <td>2.4 MS/s</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>No. of Antennas</td>
+      <td>1</td>
+      <td>1</td>
+      <td>TBD</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td>Capability</td>
+      <td>Transmission + Reception</td>
+      <td>Reception</td>
+      <td>Transmission + Reception</td>
+      <td>Reception</td>
+    </tr>
+    <tr>
+      <td>Programming Language &amp; Tools</td>
+      <td>Python, C, GNU Radio</td>
+      <td>Python, C, GNU Radio</td>
+      <td>Python, C, GNU Radio</td>
+      <td>Python, C, GNU Radio</td>
+    </tr>
+  </tbody>
+</table>
 
-## Deep Radio Pro
-
-| Parameter | Transmitter | Receiver |
-|------------|-------------|----------|
-| Components | Radio Unit<br>Monitor<br>Keyboard & Mouse | Radio Unit<br>Monitor<br>Keyboard & Mouse |
-| Memory | 128 GB SSD<br>8 GB RAM | 128 GB SSD<br>8 GB RAM |
-| Frequency Range | 50 MHz - 6 GHz | 50 MHz - 1700 MHz |
-| Coverage Range | 50 feet in LoS conditions | - |
-| Max. Sampling Rate | 20 MS/s | 2.4 MS/s |
-| No. of Antennas | 1 | 1 |
-| Capability | Transmission + Reception | Reception |
-| Programming Language & Tools | Python, C, GNU Radio | Python, C, GNU Radio |
 ---
 <h2 class="features">Sample Experiments</h2>
 
