@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Deep Radio Pro V2</title>
+<style>
+body{margin:0;background:#050b14;color:#fff;font-family:Segoe UI,Arial}
+h1{text-align:center;color:#00e5ff;margin:10px}
+#phase{text-align:center;font-size:28px;color:#ffd54f}
+.top{display:flex;align-items:center;justify-content:space-around}
+.box{width:240px;height:130px;border:2px solid #00e5ff;border-radius:12px;
+display:flex;align-items:center;justify-content:center;text-align:center;font-size:28px;font-weight:bold}
+#rf{background:#000;border:1px solid #234}
+.row{display:flex;justify-content:center;gap:20px;margin-top:10px}
+.panel{background:#000;border:1px solid #234}
+#status,#info,#prediction{text-align:center;margin:10px;font-size:22px}
+#prediction{font-size:32px;color:#00ff88}
+</style>
+</head>
+<body>
+<h1>DEEP RADIO - AI Powered Modulation Classification</h1>
+<div id="phase">PHASE 1 : DATASET CREATION</div>
+
+<div class="top">
+
+<div class="box">DEEP RADIO<br>TRANSMITTER</div>
+
+<canvas id="rf" width="900" height="140"></canvas>
+
+<div style="display:flex;flex-direction:column;align-items:center;">
+<div class="box">DEEP RADIO<br>RECEIVER</div>
+
+<div id="status"
+style="
+margin-top:12px;
+width:260px;
+min-height:50px;
+text-align:center;
+color:#00ff88;
+font-size:18px;
+font-weight:bold;">
+</div>
+
+</div>
+
+</div>
+
+<div class="row">
+<canvas id="left" class="panel" width="450" height="320"></canvas>
+<canvas id="right" class="panel" width="450" height="320"></canvas>
+</div>
+
+<div id="info"></div>
+<div id="prediction"></div>
+
+<script>
+let current="BPSK";
+let phaseNo=1;
+let travel=0;
+
+function bpskWave(x,t){
+ let bit=Math.floor((x+t*50)/120)%2;
+ let ph=bit?Math.PI:0;
+ return 70+28*Math.sin(x*0.05-t+ph);
+}
+function qpskWave(x,t){
+ let s=Math.floor((x+t*50)/120)%4;
+ let ph=[0,Math.PI/2,Math.PI,3*Math.PI/2][s];
+ return 70+28*Math.sin(x*0.05-t+ph);
+}
+function gmskWave(x,t){
+ return 70+28*Math.sin(x*0.05-t+0.8*Math.sin(x*0.012));
+}
+
+function drawRF(){
+ let c=document.getElementById('rf');
+ let ctx=c.getContext('2d');
+ ctx.clearRect(0,0,c.width,c.height);
+
+ if(phaseNo!=2){
+   if(current=="BPSK") ctx.strokeStyle="#00ff88";
+   if(current=="QPSK") ctx.strokeStyle="#ffd600";
+   if(current=="GMSK") ctx.strokeStyle="#ff66ff";
+   ctx.lineWidth=3;
+   ctx.beginPath();
+
+   for(let x=0;x<c.width;x++){
+      let y=current=="BPSK"?bpskWave(x,travel):
+            current=="QPSK"?qpskWave(x,travel):
+            gmskWave(x,travel);
+      if(x==0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+   }
+   ctx.stroke();
+
+   let px=(travel*25)%c.width;
+   ctx.fillStyle="yellow";
+   ctx.beginPath();ctx.arc(px,70,8,0,6.28);ctx.fill();
+
+   ctx.fillStyle="white";
+   ctx.font="20px Arial";
+   ctx.fillText("Current Modulation : "+current,20,25);
+   travel+=0.18;
+ }
+ requestAnimationFrame(drawRF);
+}
+drawRF();
+
+const left=document.getElementById("left").getContext("2d");
+const right=document.getElementById("right").getContext("2d");
+
+function constellation(mod){
+ left.fillStyle="black"; left.fillRect(0,0,450,320);
+ left.strokeStyle="#444";
+ left.beginPath();
+ left.moveTo(225,0); left.lineTo(225,320);
+ left.moveTo(0,160); left.lineTo(450,160);
+ left.stroke();
+ left.fillStyle="#00ff88";
+ const p=(x,y)=>{left.beginPath();left.arc(x,y,5,0,6.28);left.fill();};
+ if(mod=="BPSK"){p(140,160);p(310,160);}
+ else if(mod=="QPSK"){p(140,90);p(310,90);p(140,230);p(310,230);}
+ else {for(let i=0;i<60;i++)p(225+90*Math.cos(i/6),160+90*Math.sin(i/6));}
+ left.fillStyle="white";
+ left.fillText(mod+" Constellation",150,20);
+}
+
+
+function showTrainingPipeline()
+{
+    left.fillStyle="black";
+    left.fillRect(0,0,450,320);
+
+    left.fillStyle="#00e5ff";
+    left.font="22px Arial";
+    left.fillText("Training Pipeline",130,50);
+
+    left.fillStyle="white";
+    left.font="18px Arial";
+
+    left.fillText("   IQ",40,170);
+    left.fillText("CNN",160,170);
+    left.fillText("LSTM",250,170);
+    left.fillText("Classifier",330,170);
+
+    left.strokeStyle="#00ff88";
+    left.lineWidth=2;
+    left.beginPath();
+    left.moveTo(110,165); left.lineTo(145,165);
+    left.moveTo(205,165); left.lineTo(235,165);
+    left.moveTo(305,165); left.lineTo(325,165);
+    left.stroke();
+}
+
+function training(acc){
+ right.fillStyle="black"; right.fillRect(0,0,450,320);
+ right.fillStyle="white";
+ right.fillText("CNN → LSTM → Dense → Softmax",80,40);
+ right.strokeStyle="#00e5ff";
+ right.beginPath();
+ for(let i=0;i<acc;i++){
+   let x=i*4,y=280-i*2.2;
+   if(i==0) right.moveTo(x,y); else right.lineTo(x,y);
+ }
+ right.stroke();
+ right.fillText("Accuracy "+acc+"%",170,70);
+}
+
+function probs(mod){
+ right.fillStyle="black"; right.fillRect(0,0,450,320);
+ right.fillStyle="white";
+ right.fillText("Prediction Probabilities",120,30);
+ let d={BPSK:2,QPSK:2,GMSK:2}; d[mod]=96;
+ let y=90;
+ ["BPSK","QPSK","GMSK"].forEach(k=>{
+   right.fillText(k,20,y);
+   right.strokeRect(100,y-15,250,20);
+   right.fillStyle="#00c853";
+   right.fillRect(100,y-15,250*d[k]/100,20);
+   right.fillStyle="white";
+   right.fillText(d[k]+"%",365,y);
+   y+=70;
+ });
+}
+
+let mods=["BPSK","QPSK","GMSK"], idx=0;
+let b=0,q=0,g=0;
+
+function phase1(){
+ document.getElementById("status").innerHTML="RX Recording IQ Samples and Labels";
+ let t=setInterval(()=>{
+   current=mods[idx];
+   constellation(current);
+   if(current=="BPSK") b+=1000;
+   if(current=="QPSK") q+=1000;
+   if(current=="GMSK") g+=1000;
+   document.getElementById("info").innerHTML=
+   `Dataset: BPSK=${b} | QPSK=${q} | GMSK=${g}`;
+   idx++;
+   if(idx>=3){clearInterval(t);setTimeout(phase2,2000);}
+ },3000);
+}
+
+function phase2(){
+ phaseNo=2;
+ showTrainingPipeline();
+ document.getElementById("phase").innerHTML="PHASE 2 : TRAINING";
+ let acc=50;
+ let t=setInterval(()=>{
+   acc++;
+   training(acc);
+   document.getElementById("status").innerHTML="Training Modulation Classifier";
+   document.getElementById("info").innerHTML="Epoch "+(acc-49);
+   if(acc>=99){
+      clearInterval(t);
+      document.getElementById("info").innerHTML="Generated Model: modulation_classifier.h5";
+      setTimeout(phase3,2500);
+   }
+ },120);
+}
+
+function phase3(){
+ phaseNo=3;
+ current=mods[Math.floor(Math.random()*3)];
+ document.getElementById("phase").innerHTML="PHASE 3 : PREDICTION";
+ document.getElementById("status").innerHTML="Unknown Signal Received";
+ constellation(current);
+ probs(current);
+ document.getElementById("prediction").innerHTML=
+ "Predicted Modulation: "+current+"<br>Confidence: 96%";
+}
+
+constellation("BPSK");
+phase1();
+</script>
+</body>
+</html>
