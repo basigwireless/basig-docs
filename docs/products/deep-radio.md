@@ -17,6 +17,16 @@ By processing real-time signals from everyday systems like FM, GSM, LTE, 5G and 
 ### Rapid Prototyping: Fast-track innovation 
 Deep Radio simplifies the development process, allowing students to rapidly prototype and test novel wireless systems, eliminating the need for complex hardware design. 
 
+# Outcomes
+
+The SDR laboratory can be used for,
+• Undergraduate/postgraduate laboratory experiments for the following courses:
+  – Digital Signal Processing
+  – Analog Communications
+  – Digital Communications
+  – Wireless Communication
+• Undergraduate/postgraduate thesis projects.
+
 ---
 # Technical Specifications
 
