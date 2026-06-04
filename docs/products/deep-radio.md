@@ -7,8 +7,19 @@ Deep Radio is an SDR based platform, designed:
 - To develop applications of deep learning in wireless domain
 
 ---
+# Technical Specifications
 
-
+|  | Transmitter | Receiver |
+|--------------|-------------|------------|
+| **Components** | Radio Unit<br>Monitor<br>Keyboard & Mouse | Radio Unit<br>Monitor<br>Keyboard & Mouse |
+| **Memory** | 128 GB SSD<br>8 GB RAM | 128 GB SSD<br>8 GB RAM |
+| **Frequency Range** | 50 MHz – 6 GHz | 50 MHz – 1700 MHz |
+| **Coverage Range** | 50 feet in LoS conditions | - |
+| **Max. Sampling Rate** | 20 MS/s | 2.4 MS/s |
+| **No. of Antennas** | 1 | 1 |
+| **Capability** | Transmission + Reception | Reception |
+| **Programming Language & Tools** | Python, C, GNU Radio | Python, C, GNU Radio |
+---
 <h2 class="features">Sample Experiments</h2>
 
 - 2G, 3G, 4G Live Spectrum/Bands monitoring
