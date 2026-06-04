@@ -8,13 +8,13 @@ Deep Radio is an SDR based platform, designed:
 
 
 ## Why Deep Radio? 
-### Unleash the Power of Wireless Innovation 
+#### Unleash the Power of Wireless Innovation 
 Deep Radio empowers researchers, instructors, and students to delve into the fascinating world of wireless communication.  
 
-### Hands-on Learning: Gain a deep understanding of wireless communication 
+#### Hands-on Learning: Gain a deep understanding of wireless communication 
 By processing real-time signals from everyday systems like FM, GSM, LTE, 5G and Wi-Fi, students will gain a practical understanding of digital signal processing and wireless communication concepts.
 
-### Rapid Prototyping: Fast-track innovation 
+#### Rapid Prototyping: Fast-track innovation 
 Deep Radio simplifies the development process, allowing students to rapidly prototype and test novel wireless systems, eliminating the need for complex hardware design. 
 
 # Outcomes
