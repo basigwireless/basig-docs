@@ -18,16 +18,29 @@ By processing real-time signals from everyday systems like FM, GSM, LTE, 5G and 
 Deep Radio simplifies the development process, allowing students to rapidly prototype and test novel wireless systems, eliminating the need for complex hardware design. 
 
 # Outcomes
+## Undergraduate/Postgraduate Laboratory Experiments
 
-The SDR laboratory can be used for,
-• Undergraduate/postgraduate laboratory experiments for the following courses:
-  – Digital Signal Processing
-  – Analog Communications
-  – Digital Communications
-  – Wireless Communication
-• Undergraduate/postgraduate thesis projects.
+Deep Radio supports hands-on laboratory experiments for the following courses:
 
+- Digital Signal Processing (DSP)
+- Analog Communications
+- Digital Communications
+- Wireless Communications
+- Software Defined Radio (SDR)
+- Cognitive Radio and Dynamic Spectrum Access
+- Machine Learning for Wireless Communications
+
+## Undergraduate/Postgraduate Thesis Projects
+
+Deep Radio serves as an ideal platform for:
+
+- B.E./B.Tech Final Year Projects
+- M.E./M.Tech Dissertation Projects
+- M.S. Research Projects
+- Ph.D. Research and Prototype Development
+  
 ---
+
 # Technical Specifications
 
 <table>
