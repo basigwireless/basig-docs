@@ -19,6 +19,7 @@ Deep Radio is an SDR based platform, designed:
 | **No. of Antennas** | 1 | 1 |
 | **Capability** | Transmission + Reception | Reception |
 | **Programming Language & Tools** | Python, C, GNU Radio | Python, C, GNU Radio |
+
 ---
 <h2 class="features">Sample Experiments</h2>
 
