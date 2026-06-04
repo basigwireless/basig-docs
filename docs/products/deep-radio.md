@@ -26,8 +26,6 @@ Deep Radio supports hands-on laboratory experiments for the following courses:
 - Analog Communications
 - Digital Communications
 - Wireless Communications
-- Software Defined Radio (SDR)
-- Cognitive Radio and Dynamic Spectrum Access
 - Machine Learning for Wireless Communications
 
 ## Undergraduate/Postgraduate Thesis Projects
