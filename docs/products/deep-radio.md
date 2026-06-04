@@ -113,8 +113,7 @@ Deep Radio serves as an ideal platform for:
 
 ---
 <h2 class="features">Deep Radio Capabilities</h2>
-![Demo](images/Deep Radio(1).png){data-caption="Deep Radio Capabilities"}
-![](images/Deep%20Radio(1).png)
+![](images/Deep%20Radio(2).png)
 
 ---
 <h2 class="features">Sample Experiments</h2>
