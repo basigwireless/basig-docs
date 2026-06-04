@@ -65,15 +65,15 @@ Deep Radio serves as an ideal platform for:
     <td>Frequency Range</td>
     <td>50 MHz - 6 GHz</td>
     <td>50 MHz - 1700 MHz</td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>50 MHz - 6 GHz</td>
+    <td>50 MHz - 6 GHz</td>
   </tr>
 
   <tr>
     <td>Coverage Range</td>
     <td>50 feet in LoS conditions</td>
     <td>-</td>
-    <td>TBD</td>
+    <td>20 MS/s</td>
     <td>-</td>
   </tr>
 
@@ -81,8 +81,8 @@ Deep Radio serves as an ideal platform for:
     <td>Max. Sampling Rate</td>
     <td>20 MS/s</td>
     <td>2.4 MS/s</td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>20 MS/s</td>
+    <td>20 MS/s</td>
   </tr>
 
   <tr>
