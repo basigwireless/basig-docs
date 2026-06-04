@@ -110,6 +110,12 @@ Deep Radio serves as an ideal platform for:
   </tr>
 </table>
 
+
+---
+<h2 class="features">Deep Radio Capabilities</h2>
+![Demo](images/Deep Radio(1).png){data-caption="Deep Radio at KL University, Hyderabad"}
+
+
 ---
 <h2 class="features">Sample Experiments</h2>
 
