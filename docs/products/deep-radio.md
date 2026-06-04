@@ -9,79 +9,83 @@ Deep Radio is an SDR based platform, designed:
 ---
 # Technical Specifications
 
-
 <table>
-  <thead>
-    <tr>
-      <th rowspan="2">Feature</th>
-      <th colspan="2">DeepRadio</th>
-      <th colspan="2">DeepRadio Pro</th>
-    </tr>
-    <tr>
-      <th>Transmitter</th>
-      <th>Receiver</th>
-      <th>Transmitter</th>
-      <th>Receiver</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Components</td>
-      <td>Radio Unit<br>Monitor<br>Keyboard &amp; Mouse</td>
-      <td>Radio Unit<br>Monitor<br>Keyboard &amp; Mouse</td>
-      <td>Radio Unit<br>Monitor<br>Keyboard &amp; Mouse</td>
-      <td>Radio Unit<br>Monitor<br>Keyboard &amp; Mouse</td>
-    </tr>
-    <tr>
-      <td>Memory</td>
-      <td>128 GB SSD<br>8 GB RAM</td>
-      <td>128 GB SSD<br>8 GB RAM</td>
-      <td>128 GB SSD<br>16 GB RAM</td>
-      <td>128 GB SSD<br>16 GB RAM</td>
-    </tr>
-    <tr>
-      <td>Frequency Range</td>
-      <td>50 MHz - 6 GHz</td>
-      <td>50 MHz - 1700 MHz</td>
-      <td>TBD</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>Coverage Range</td>
-      <td>50 feet in LoS conditions</td>
-      <td>-</td>
-      <td>TBD</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>Max. Sampling Rate</td>
-      <td>20 MS/s</td>
-      <td>2.4 MS/s</td>
-      <td>TBD</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>No. of Antennas</td>
-      <td>1</td>
-      <td>1</td>
-      <td>TBD</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>Capability</td>
-      <td>Transmission + Reception</td>
-      <td>Reception</td>
-      <td>Transmission + Reception</td>
-      <td>Reception</td>
-    </tr>
-    <tr>
-      <td>Programming Language &amp; Tools</td>
-      <td>Python, C, GNU Radio</td>
-      <td>Python, C, GNU Radio</td>
-      <td>Python, C, GNU Radio</td>
-      <td>Python, C, GNU Radio</td>
-    </tr>
-  </tbody>
+  <tr>
+    <th rowspan="2">Feature</th>
+    <th colspan="2">DeepRadio</th>
+    <th colspan="2">DeepRadio Pro</th>
+  </tr>
+
+  <tr>
+    <th>Transmitter</th>
+    <th>Receiver</th>
+    <th>Transmitter</th>
+    <th>Receiver</th>
+  </tr>
+
+  <tr>
+    <td>Components</td>
+    <td>Radio Unit<br>Monitor<br>Keyboard & Mouse</td>
+    <td>Radio Unit<br>Monitor<br>Keyboard & Mouse</td>
+    <td>Radio Unit<br>Monitor<br>Keyboard & Mouse</td>
+    <td>Radio Unit<br>Monitor<br>Keyboard & Mouse</td>
+  </tr>
+
+  <tr>
+    <td>Memory</td>
+    <td>128 GB SSD<br>8 GB RAM</td>
+    <td>128 GB SSD<br>8 GB RAM</td>
+    <td>128 GB SSD<br>16 GB RAM</td>
+    <td>128 GB SSD<br>16 GB RAM</td>
+  </tr>
+
+  <tr>
+    <td>Frequency Range</td>
+    <td>50 MHz - 6 GHz</td>
+    <td>50 MHz - 1700 MHz</td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+
+  <tr>
+    <td>Coverage Range</td>
+    <td>50 feet in LoS conditions</td>
+    <td>-</td>
+    <td>TBD</td>
+    <td>-</td>
+  </tr>
+
+  <tr>
+    <td>Max. Sampling Rate</td>
+    <td>20 MS/s</td>
+    <td>2.4 MS/s</td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+
+  <tr>
+    <td>No. of Antennas</td>
+    <td>1</td>
+    <td>1</td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+
+  <tr>
+    <td>Capability</td>
+    <td>Transmission + Reception</td>
+    <td>Reception</td>
+    <td>Transmission + Reception</td>
+    <td>Reception</td>
+  </tr>
+
+  <tr>
+    <td>Programming Language & Tools</td>
+    <td>Python, C, GNU Radio</td>
+    <td>Python, C, GNU Radio</td>
+    <td>Python, C, GNU Radio</td>
+    <td>Python, C, GNU Radio</td>
+  </tr>
 </table>
 
 ---
