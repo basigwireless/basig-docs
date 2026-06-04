@@ -109,8 +109,8 @@ Deep Radio is an SDR based platform, designed:
 
 ---
 
-<iframe src="deep_radio_phase2_training_pipeline.html"></iframe>
 
+[Click here to view Deepradio Working](deep_radio_phase2_training_pipeline.html)
 ---
 
 ## Product
