@@ -135,6 +135,11 @@ Deep Radio serves as an ideal platform for:
 - 5G Signal Generation and Transmission
 
 ---
+<h2 class="features"> Over-the-Air Text Communication using 
+QPSK Modulation and Channel Coding</h2>
+![](images/qpsk_blockdiagram.png)
+
+---
 ## Demos:
 
 ##### [Click here to view Modulation Classification Using Deep Radio](deep_radio_phase2_training_pipeline.html)
