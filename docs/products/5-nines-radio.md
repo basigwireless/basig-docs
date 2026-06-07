@@ -36,7 +36,7 @@ In NSA mode, to establish a connection with a 5G Smartphone, one requires a 4G b
 | MIMO Support | 1x1 (eNB), 2x2 (gNB) |
 
 
-## Five9 Radio Configurations
+## 5Nines Radio Configurations
 
 - **NSA Full:** *CPUs:* 3 (5G Core, gNB, eNB), *SDR Units:* 2, *Smartphones:* 2, *IoT Bridge*, *Portable Specturm Analyzer*, *Architecture Support:* 5G NSA and SA
 - **SA Standard:** *CPUs:* 2 (5G Core, gNB), *SDR Units:* 1, *Smartphones:* 1, *IoT Bridge*, *Portable Specturm Analyzer*, *Architecture Support:* 5G SA
@@ -75,7 +75,7 @@ The main features of 5Nines Radio are as follows.
 - Highly scalable
 - Assured long-term technical and research support
 
-Moreover, the Five9 Radio is designed to support:
+Moreover, the 5Nines Radio is designed to support:
 
 - Industry-relevant experiments
 - 5G protocol testing
