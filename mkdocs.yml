@@ -83,6 +83,7 @@ nav:
       - Books:
         - LTE Hands-On: press/lte-hands-on.md
         - 5G NR Hands-On: press/5g-nr-hands-on.md
+        - YESDR - Your Extensible Software-Defined Radio: press/yesdr-hands-on.md
         - Deep Radio - Hands-On Wireless AI: press/deep-radio-hands-on.md
       - Standards & Specifications:
         - YesDR Standard: press/yesdr.md
