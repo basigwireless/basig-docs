@@ -9,12 +9,12 @@
 
 **Authors:**  
 Aravind Kilaru, KL University, Vijayawada  
-Prabhu Chandhar, Basig Wireless Laboratories India Pvt. Ltd., BaSig Wireless Laboratories Pvt. Ltd.  
+Prabhu Chandhar, BaSig Wireless Laboratories India Pvt. Ltd.
 
 **Edition:** First Edition, 2024  
 **Language:** English  
 **Format:** Paperback  
-**Publisher:** Basig Wireless Press (Imprint of Basig Wireless Laboratories India Pvt. Ltd.), India  
+**Publisher:** Basig Wireless Press (Imprint of BaSig Wireless Laboratories India Pvt. Ltd.), India  
 **ISBN:** 978‑81‑982943‑9‑5  
 
 ---
