@@ -10,7 +10,7 @@
 
 **Authors:**  
 Aravind Kilaru, KL University, Vijayawada  
-Prabhu Chandhar, Basig Wireless Laboratories India Pvt. Ltd., BaSig Wireless Laboratories Pvt. Ltd.  
+Prabhu Chandhar, Basig Wireless Laboratories India Pvt. Ltd.  
 
 **Edition:** First Edition, 2025  
 **Language:** English  
