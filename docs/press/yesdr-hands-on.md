@@ -1,4 +1,4 @@
-# YESDR: Your Extensible Software Defined Radio
+# YESDR: Your Extensible Software-Defined Radio
 
 ![YESDR: Your Extensible Software Defined Radio](YESDR-Cover-Page.png)
 
