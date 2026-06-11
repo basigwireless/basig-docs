@@ -1,9 +1,9 @@
 
-- **Prabhu Chandhar,** *YESDR: Your Extensible Sfotware-Defined Radio.*  
+- **Prabhu Chandhar,** *Deep-Radio: Hands-On Wireless AI.*  
   Chandhar Research Press, 2026.  
   **ISBN:** 978‑81‑982943‑0‑2.
   
-- **Prabhu Chandhar,** *Deep-Radio: Hands-On Wireless AI.*  
+- **Prabhu Chandhar,** *YESDR: Your Extensible Sfotware-Defined Radio.*  
   Chandhar Research Press, 2026.  
   **ISBN:** 978-81-982943-6-4.
 
