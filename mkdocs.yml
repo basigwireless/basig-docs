@@ -83,6 +83,7 @@ nav:
       - Books:
         - LTE Hands-On: press/lte-hands-on.md
         - 5G NR Hands-On: press/5g-nr-hands-on.md
+        - Deep Radio - Hands-On Wireless AI: press/deep-radio-hands-on.md
       - Standards & Specifications:
         - YesDR Standard: press/yesdr.md
      
@@ -92,7 +93,6 @@ nav:
       - UG & PG Projects at Collaborating Institutes: internships/ugpgprojects.md
       - Past & Current Internships: internships/past-current.md
       - Visitng Scholars: internships/visiting-scholars.md
-      
       
 
   - Talks:
