@@ -15,7 +15,9 @@ An independent publishing imprint associated with BaSig, covering research, book
 
 - [**LTE Hands‑On**](lte-hands-on.md): A comprehensive laboratory manual for practical understanding of 4G LTE systems using SDR‑based experimentation.  
 
-- [**5G NR Hands‑On**](5g-nr-hands-on.md): An end‑to‑end practical guide to 5G Standalone and Non‑Standalone networks with real testbeds and use‑case labs.  
+- [**5G NR Hands‑On**](5g-nr-hands-on.md): An end‑to‑end practical guide to 5G Standalone and Non‑Standalone networks with real testbeds and use‑case labs.
+
+- [**Deep Radio: Hands‑On Wireless AI**](deep-radio-hands-on.md): A practical laboratory guide to AI-driven wireless communication, covering signal intelligence, spectrum analytics, machine learning, deep learning, and real-time SDR experimentation for next-generation radio systems.
 
 - **YESDR: Your Extensible Software Defined Radio**: A standard-oriented guide presenting the architecture, protocol framework, and reference implementation of the [YESDR](https://yesdr-standard.org) platform.
 
