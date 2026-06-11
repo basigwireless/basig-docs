@@ -19,7 +19,7 @@ An independent publishing imprint associated with BaSig, covering research, book
 
 - [**Deep Radio: Hands‑On Wireless AI**](deep-radio-hands-on.md): A practical laboratory guide to AI-driven wireless communication, covering signal intelligence, spectrum analytics, machine learning, deep learning, and real-time SDR experimentation for next-generation radio systems.
 
-- **YESDR: Your Extensible Software Defined Radio**: A standard-oriented guide presenting the architecture, protocol framework, and reference implementation of the [YESDR](https://yesdr-standard.org) platform.
+- [**YESDR: Your Extensible Software Defined Radio**](yesdr-hands-on.md): A standard-oriented guide presenting the architecture, protocol framework, and reference implementation of the [YESDR](https://yesdr-standard.org) platform.
 
 ---
 
