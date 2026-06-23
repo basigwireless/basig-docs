@@ -6,9 +6,9 @@
 
 ---
 
-## About BaSig
+## About BaSig Wireless
 
-BaSig develops next-generation wireless communication systems combining:
+BaSig Wireless develops next-generation wireless communication systems combining:
 
 - 5G & 6G Technologies  
 - Software Defined Radio (SDR)  
