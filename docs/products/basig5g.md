@@ -165,7 +165,7 @@ Supported Network Functions:
 
 ### Standards Compliance
 
-BaSig5G™ is designed with reference to the following 3GPP specifications:
+BaSig5G is designed with reference to the following 3GPP specifications:
 
 * 3GPP TR 38.901
 * 3GPP TS 38.211
