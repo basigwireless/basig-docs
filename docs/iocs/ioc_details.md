@@ -24,20 +24,11 @@ The sessions combine theoretical understanding with extensive hands-on practical
 
 We offer training programs in:
 
-- 5G and Beyond Networks
 - 5G Standalone (SA) Architecture
-- 5G Core and gNB Integration
-- Multi-access Edge Computing (MEC)
 - Software Defined Radio (SDR)
-- GNU Radio and Python-based SDR
 - Open RAN (O-RAN)
-- RF Signal Analysis
-- Digital Communication Systems
 - AI/ML for Wireless Communication
-- Spectrum Sensing
 - Wireless Protocol Analysis
-- IoT over 5G
-- Edge AI Applications
 
 ---
 
@@ -56,20 +47,6 @@ Participants gain exposure to:
 - Protocol analysis and debugging
 - RF spectrum visualization
 - End-to-end communication setup
-
----
-
-## Hands-on Hardware Platforms
-
-Training sessions may include practical exposure using:
-
-- Deep Radio
-- RTL-SDR
-- 5G Testbeds
-- GNU Radio
-- Python-based wireless frameworks
-- Open-source 5G Core platforms
-- MEC servers and edge computing systems
 
 ---
 
