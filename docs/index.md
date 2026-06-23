@@ -1,4 +1,4 @@
-# BaSig
+# BaSig Wreless
 
 ### AI-Driven Wireless Systems  
 5G • 6G • SDR • Edge Intelligence
