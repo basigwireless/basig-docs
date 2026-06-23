@@ -183,3 +183,11 @@ BaSig5G™ is designed with reference to the following 3GPP specifications:
 * 3GPP TS 23.502
 * 3GPP TS 29.500 Series
 * 3GPP TS 33.501
+
+
+---
+
+!!! info "To buy"
+    For purchase, pricing, and demos, contact:
+
+    Email: **sales@basigwireless.com**  
