@@ -73,7 +73,7 @@ Deep Radio serves as an ideal platform for:
     <td>Coverage Range</td>
     <td>50 feet in LoS conditions</td>
     <td>-</td>
-    <td>20 MS/s</td>
+    <td>50 feet in LoS conditions</td>
     <td>-</td>
   </tr>
 
