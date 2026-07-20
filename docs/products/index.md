@@ -7,7 +7,7 @@ BaSig develops research‑grade platforms and testbeds for wireless communicatio
 ## Product Portfolio
 
 - [**5Nines Radio<sup>®</sup> (5G Testbed)**](5-nines-radio.md): A high‑reliability end‑to‑end 5G testbed for URLLC, eMBB, and mMTC research.
-- [**5Nines Core<sup>®</sup>**](5Nines Core.md): A high‑reliability Core Network for 5G testbed.
+- [**5Nines Core</sup>**](5Nines Core.md): A high‑reliability Core Network for 5G testbed.
 - [**BaSig5G**](basig5g.md): End-to-End 5G Network Software in Python
 - [**Deep Radio<sup>®</sup>**](deep-radio.md): A deep learning–enabled wireless testbed for AI‑driven PHY and MAC research.
 - [**Wi‑Guy<sup>®</sup>**](wi-guy.md): An SDR‑based platform for learning and experimenting with wireless fundamentals.
