@@ -89,8 +89,8 @@ Deep Radio serves as an ideal platform for:
     <td>No. of Antennas</td>
     <td>1</td>
     <td>1</td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>1</td>
+    <td>1</td>
   </tr>
 
   <tr>
