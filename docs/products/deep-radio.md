@@ -7,27 +7,6 @@ Deep Radio is an SDR based platform, designed:
 - To develop applications of deep learning in wireless domain
 
 
-# Outcomes
-## Undergraduate/Postgraduate Laboratory Experiments
-
-Deep Radio supports hands-on laboratory experiments for the following courses:
-
-- Digital Signal Processing (DSP)
-- Analog Communications
-- Digital Communications
-- Wireless Communications
-- Machine Learning for Wireless Communications
-
-## Undergraduate/Postgraduate Thesis Projects
-
-Deep Radio serves as an ideal platform for:
-
-- B.E./B.Tech Final Year Projects
-- M.E./M.Tech Dissertation Projects
-- M.S. Research Projects
-- Ph.D. Research and Prototype Development
-  
----
 
 # Technical Specifications
 
@@ -173,6 +152,31 @@ Click on images to view larger.
 ![Deep Radio Setup](./Deepradio/img1.jpg){.gallery}
 ![Deep Radio Experiment](./Deepradio/img2.jpg){.gallery}
 ![Signal Processing Lab](./Deepradio/img3.jpg){.gallery}
+
+
+
+# Outcomes
+## Undergraduate/Postgraduate Laboratory Experiments
+
+Deep Radio supports hands-on laboratory experiments for the following courses:
+
+- Digital Signal Processing (DSP)
+- Analog Communications
+- Digital Communications
+- Wireless Communications
+- Machine Learning for Wireless Communications
+
+## Undergraduate/Postgraduate Thesis Projects
+
+Deep Radio serves as an ideal platform for:
+
+- B.E./B.Tech Final Year Projects
+- M.E./M.Tech Dissertation Projects
+- M.S. Research Projects
+- Ph.D. Research and Prototype Development
+  
+---
+
 
 ---
 !!! info "To buy"
