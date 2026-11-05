@@ -34,7 +34,7 @@ BaSig Wireless is a member of leading telecommunications standardisation organis
 
 -   **TSDSI**
 
-    <img src="assets/images/tsdsi-logo.png" alt="TSDSI logo" width="140">
+    <img src="assets/images/tsdsi_logo.png" alt="TSDSI logo" width="140">
 
     Telecommunications Standards Development Society, India.
 
@@ -42,7 +42,7 @@ BaSig Wireless is a member of leading telecommunications standardisation organis
 
 -   **Bharat 6G Alliance**
 
-    <img src="assets/images/bharat6g-logo.png" alt="Bharat 6G Alliance logo" width="160">
+    <img src="assets/images/bharat6galliance_logo.png" alt="Bharat 6G Alliance logo" width="160">
 
     India's 6G technology research and industry ecosystem.
 
