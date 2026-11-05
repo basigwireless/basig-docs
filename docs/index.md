@@ -28,7 +28,7 @@ wireless technology ecosystem and India's 6G vision.
 ::: {.grid .cards markdown=""}
 -   **3GPP**
 
-    ![3GPP Logo](assets/images/3gpp-logo.svg)
+    ![3GPP Logo](assets/images/3gpp_logo.svg)
 
     Global mobile telecommunications standards development.
 
@@ -36,7 +36,7 @@ wireless technology ecosystem and India's 6G vision.
 
 -   **TSDSI**
 
-    ![TSDSI Logo](assets/images/tsdsi-logo.png)
+    ![TSDSI Logo](assets/images/tsdsi_logo.png)
 
     Telecommunications Standards Development Society, India.
 
@@ -44,7 +44,7 @@ wireless technology ecosystem and India's 6G vision.
 
 -   **Bharat 6G Alliance**
 
-    ![Bharat 6G Alliance Logo](assets/images/bharat6g-logo.png)
+    ![Bharat 6G Alliance Logo](assets/images/bharat6galliance_logo.png)
 
     India's 6G technology research and industry ecosystem.
 
