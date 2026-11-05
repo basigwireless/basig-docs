@@ -24,6 +24,16 @@ BaSig Wireless develops next-generation wireless communication systems combining
 | <img src="assets/images/3gpp_logo.svg" width="130"> | <img src="assets/images/tsdsi_logo.png" width="130"> | <img src="assets/images/bharat6galliance_logo.png" width="150"> |
 | Global mobile telecommunications standards development. | Telecommunications Standards Development Society, India. | India's 6G technology research and industry ecosystem. |
 | [Official Website](https://www.3gpp.org/) | [Official Website](https://tsdsi.in/) | [Official Website](https://bharat6galliance.com/bharat6G/) |
+
+Our engagement and research interests include:
+
+- 5G Advanced and 6G Technologies
+- Wireless Standards and Specifications
+- Software Defined Radio and Indigenous Radio Technologies
+- Next-Generation Radio Access Networks
+- AI-Native Wireless Communications
+- Spectrum Management and Sharing
+  
 ---
 
 ## Core Focus Areas
