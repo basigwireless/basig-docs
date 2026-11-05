@@ -19,6 +19,10 @@ BaSig Wireless develops next-generation wireless communication systems combining
 
 ---
 
+## Standards & Industry Alliances
+
+BaSig Wireless is a member of leading telecommunications standardisation organisations and industry alliances, actively engaging with the global wireless technology ecosystem and India's 6G vision.
+
 | **3GPP** | **TSDSI** | **Bharat 6G Alliance** |
 |:---:|:---:|:---:|
 | <img src="assets/images/3gpp_logo.svg" width="130"> | <img src="assets/images/tsdsi_logo.png" width="130"> | <img src="assets/images/bharat6galliance_logo.png" width="150"> |
