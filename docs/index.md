@@ -1,5 +1,5 @@
 
- <img src="assets/images/basig_logo.png" width="300"> 
+ <img src="assets/images/basig_logo_web.png" width="300"> 
 
 
 
