@@ -1,7 +1,6 @@
 
- <img src="assets/images/basig_logo.png" width="250"> 
+ <img src="assets/images/basig_logo.png" width="300"> 
 
-5G - 6G - SDR - AI-Driven Wireless Systems
 
 
 ---
