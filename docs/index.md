@@ -25,7 +25,7 @@ BaSig Wireless is a member of leading telecommunications standardisation organis
 
 | **3GPP** | **TSDSI** | **Bharat 6G Alliance** |
 |:---:|:---:|:---:|
-| <img src="assets/images/3gpp_logo.svg" width="130"> | <img src="assets/images/tsdsi_logo.png" width="125"> | <img src="assets/images/bharat6galliance_logo.png" width="140"> |
+| <img src="assets/images/3gpp_logo.png" width="130"> | <img src="assets/images/tsdsi_logo.png" width="125"> | <img src="assets/images/bharat6galliance_logo.png" width="140"> |
 | Global mobile telecommunications standards development. | Telecommunications Standards Development Society, India. | India's 6G technology research and industry ecosystem. |
 | [Official Website](https://www.3gpp.org/) | [Official Website](https://tsdsi.in/) | [Official Website](https://bharat6galliance.com/bharat6G/) |
 
