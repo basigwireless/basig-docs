@@ -16,19 +16,17 @@ BaSig Wireless develops next-generation wireless communication systems combining
 - Research & Product Development
 
 [Learn more about us](about/company.md)
-
 ---
 
 ## Standards & Industry Alliances
 
-BaSig Wireless is a member of leading telecommunications standardisation
-organisations and industry alliances, actively engaging with the global
-wireless technology ecosystem and India's 6G vision.
+BaSig Wireless is a member of leading telecommunications standardisation organisations and industry alliances, actively engaging with the global wireless technology ecosystem and India's 6G vision.
 
-::: {.grid .cards markdown=""}
+<div class="grid cards" markdown>
+
 -   **3GPP**
 
-    ![3GPP Logo](assets/images/3gpp_logo.svg)
+    <img src="assets/images/3gpp_logo.svg" alt="3GPP logo" width="140">
 
     Global mobile telecommunications standards development.
 
@@ -36,7 +34,7 @@ wireless technology ecosystem and India's 6G vision.
 
 -   **TSDSI**
 
-    ![TSDSI Logo](assets/images/tsdsi_logo.png)
+    <img src="assets/images/tsdsi-logo.png" alt="TSDSI logo" width="140">
 
     Telecommunications Standards Development Society, India.
 
@@ -44,21 +42,22 @@ wireless technology ecosystem and India's 6G vision.
 
 -   **Bharat 6G Alliance**
 
-    ![Bharat 6G Alliance Logo](assets/images/bharat6galliance_logo.png)
+    <img src="assets/images/bharat6g-logo.png" alt="Bharat 6G Alliance logo" width="160">
 
     India's 6G technology research and industry ecosystem.
 
     [Official Website](https://bharat6galliance.com/bharat6G/)
-:::
+
+</div>
 
 Our engagement and research interests include:
 
--   5G Advanced and 6G Technologies
--   Wireless Standards and Specifications
--   Software Defined Radio and Indigenous Radio Technologies
--   Next-Generation Radio Access Networks
--   AI-Native Wireless Communications
--   Spectrum Management and Sharing
+- 5G Advanced and 6G Technologies
+- Wireless Standards and Specifications
+- Software Defined Radio and Indigenous Radio Technologies
+- Next-Generation Radio Access Networks
+- AI-Native Wireless Communications
+- Spectrum Management and Sharing
 
 [Standards & Industry Engagement](standards/index.md)
 
