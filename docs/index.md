@@ -16,51 +16,14 @@ BaSig Wireless develops next-generation wireless communication systems combining
 - Research & Product Development
 
 [Learn more about us](about/company.md)
+
 ---
 
-## Standards & Industry Alliances
-
-BaSig Wireless is a member of leading telecommunications standardisation organisations and industry alliances, actively engaging with the global wireless technology ecosystem and India's 6G vision.
-
-<div class="grid cards" markdown>
-
--   **3GPP**
-
-    <img src="assets/images/3gpp_logo.svg" alt="3GPP logo" width="140">
-
-    Global mobile telecommunications standards development.
-
-    [Official Website](https://www.3gpp.org/)
-
--   **TSDSI**
-
-    <img src="assets/images/tsdsi_logo.png" alt="TSDSI logo" width="140">
-
-    Telecommunications Standards Development Society, India.
-
-    [Official Website](https://tsdsi.in/)
-
--   **Bharat 6G Alliance**
-
-    <img src="assets/images/bharat6galliance_logo.png" alt="Bharat 6G Alliance logo" width="160">
-
-    India's 6G technology research and industry ecosystem.
-
-    [Official Website](https://bharat6galliance.com/bharat6G/)
-
-</div>
-
-Our engagement and research interests include:
-
-- 5G Advanced and 6G Technologies
-- Wireless Standards and Specifications
-- Software Defined Radio and Indigenous Radio Technologies
-- Next-Generation Radio Access Networks
-- AI-Native Wireless Communications
-- Spectrum Management and Sharing
-
-[Standards & Industry Engagement](standards/index.md)
-
+| **3GPP** | **TSDSI** | **Bharat 6G Alliance** |
+|:---:|:---:|:---:|
+| <img src="assets/images/3gpp_logo.svg" width="130"> | <img src="assets/images/tsdsi_logo.png" width="130"> | <img src="assets/images/bharat6galliance_logo.png" width="150"> |
+| Global mobile telecommunications standards development. | Telecommunications Standards Development Society, India. | India's 6G technology research and industry ecosystem. |
+| [Official Website](https://www.3gpp.org/) | [Official Website](https://tsdsi.in/) | [Official Website](https://bharat6galliance.com/bharat6G/) |
 ---
 
 ## Core Focus Areas
