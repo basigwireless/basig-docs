@@ -1,6 +1,6 @@
 # BaSig Wireless
 
- <img src="assets/images/basig_logo.png" width="120"> 
+ <img src="assets/images/basig_logo.png" width="180"> 
 
 ### AI-Driven Wireless Systems  
 5G - 6G - SDR - Edge Intelligence
