@@ -1,8 +1,7 @@
 
  <img src="assets/images/basig_logo.png" width="250"> 
 
-### AI-Driven Wireless Systems  
-5G - 6G - SDR - Edge Intelligence
+5G - 6G - SDR - AI-Driven Wireless Systems
 
 
 ---
