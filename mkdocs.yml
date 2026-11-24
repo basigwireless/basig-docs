@@ -39,7 +39,7 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: index.md
+  - : index.md
   - Research:
       - Research-Overview: research/index.md
       - Research Areas:
