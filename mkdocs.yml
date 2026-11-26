@@ -106,8 +106,8 @@ nav:
 
   - Internships:
       - Internships-Overview: internships/index.md
-      - UG & PG Projects at Collaborating Institutes: internships/ugpgprojects.md
-      - Past & Current Internships: internships/past-current.md
+      - UG & PG Projects: internships/ugpgprojects.md
+      - Past & Current Interns: internships/past-current.md
       - Visiting Scholars: internships/visiting-scholars.md
       
 
@@ -146,6 +146,7 @@ plugins:
 
 hooks:
   - hooks/talks.py
+  - hooks/internships.py
 
 copyright: >
   © 2026 BaSig Wireless Laboratories India Pvt. Ltd. All rights reserved. CIN: U61200TN2026PTC191615 | GSTIN: 33AAOCB6314K1ZK

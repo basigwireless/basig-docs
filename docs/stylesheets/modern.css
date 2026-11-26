@@ -782,3 +782,43 @@ body.bw-scrolled .md-header {
   .md-typeset .bw-latest__tag { grid-row: auto; justify-self: start; }
   .md-typeset ul.bw-latest em, .md-typeset .bw-latest__where { grid-column: 1; grid-row: auto; }
 }
+
+/* =====================================================================
+   INTERNSHIPS
+   ===================================================================== */
+/* Project card with a list of interns inside (reuses the .bw-talks timeline) */
+.md-typeset .bw-interns > ul > li > p { margin: 0 0 .4rem; }
+.md-typeset .bw-interns li ul {
+  border: none; margin: .3rem 0 0; padding: 0;
+}
+.md-typeset .bw-interns li li {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .15rem .6rem;
+  margin: 0; padding: .45rem 0; border: none; border-top: 1px solid var(--bw-border);
+  border-radius: 0; background: none; box-shadow: none;
+  font-size: .76rem; color: var(--md-default-fg-color);
+}
+.md-typeset .bw-interns li li:hover { transform: none; box-shadow: none; }
+.md-typeset .bw-interns li li::before { display: none; }
+.md-typeset .bw-interns li li .bw-inst { color: var(--bw-text-soft); font-size: .72rem; }
+.md-typeset .bw-interns li li .bw-inst::before { content: "·"; margin-right: .6rem; color: var(--bw-magenta); }
+.md-typeset .bw-interns li li em { margin: 0 0 0 auto; }
+
+/* Status badges in the projects table */
+.md-typeset .bw-badge {
+  display: inline-block; padding: .12rem .55rem; border-radius: 999px;
+  font-size: .64rem; font-weight: 700; letter-spacing: .03em;
+  color: #0b7a3e; background: rgba(16, 185, 96, .12);
+}
+.md-typeset .bw-badge--done { color: var(--md-typeset-a-color); background: rgba(31, 111, 224, .1); }
+[data-md-color-scheme="slate"] .md-typeset .bw-badge { color: #5be39a; background: rgba(91, 227, 154, .12); }
+@media (max-width: 720px) {
+  .md-typeset .bw-interns li li em { margin-left: 0; }
+}
+/* Align tables with the text column */
+.md-typeset .md-typeset__table { padding: 0; }
+@media (max-width: 720px) {
+  .md-typeset .bw-interns li li { display: block; }
+  .md-typeset .bw-interns li li .bw-inst { display: block; }
+  .md-typeset .bw-interns li li .bw-inst::before { display: none; }
+  .md-typeset .bw-interns li li em { margin-top: .3rem; }
+}
