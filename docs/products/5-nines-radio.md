@@ -38,9 +38,9 @@ In NSA mode, to establish a connection with a 5G Smartphone, one requires a 4G b
 
 ## 5Nines Radio Configurations
 
-- **NSA Full:** *CPUs:* 3 (5G Core, gNB, eNB), *SDR Units:* 2, *Smartphones:* 2, *IoT Bridge*, *Portable Specturm Analyzer*, *Architecture Support:* 5G NSA and SA
-- **SA Standard:** *CPUs:* 2 (5G Core, gNB), *SDR Units:* 1, *Smartphones:* 1, *IoT Bridge*, *Portable Specturm Analyzer*, *Architecture Support:* 5G SA
-- **SA Compact:** *CPUs:* 1 (5G Core + gNB combined), *SDR Units:* 1, *Smartphones:* 1, *IoT Bridge*, *Portable Specturm Analyzer*, *Architecture Support:* 5G SA
+- **NSA Full:** *CPUs:* 3 (5G Core, gNB, eNB), *SDR Units:* 2, *Smartphones:* 2, *IoT Bridge*, *Portable Spectrum Analyzer*, *Architecture Support:* 5G NSA and SA
+- **SA Standard:** *CPUs:* 2 (5G Core, gNB), *SDR Units:* 1, *Smartphones:* 1, *IoT Bridge*, *Portable Spectrum Analyzer*, *Architecture Support:* 5G SA
+- **SA Compact:** *CPUs:* 1 (5G Core + gNB combined), *SDR Units:* 1, *Smartphones:* 1, *IoT Bridge*, *Portable Spectrum Analyzer*, *Architecture Support:* 5G SA
 - **Lite:** *CPUs:* 1 (5G Core + gNB emulated + UE emulated), *Architecture Support:* Virtualized 5G emulation
 
 ## Feature Comparison
@@ -108,13 +108,13 @@ Moreover, the 5Nines Radio is designed to support:
 <h2 class="features">Support</h2>
 
 
-- **Training**: Training every six months for three years at either customer premises or Basig Wireless Laboratories India. Support to faculty members in drafting lab, skilling, and tutorial manual for the proposed experiments will be provided.
+- **Training**: Training every six months for three years at either customer premises or BaSig Wireless Laboratories India. Support to faculty members in drafting lab, skilling, and tutorial manual for the proposed experiments will be provided.
 
 - **Internships**: Internship opportunities will be provided for eligible UG and PG students in Wireless Communications, 5G, IoT, and RF Machine Learning. The selected students will be assigned to work on the following topics ranging from 2 to 6 months.
 
 - **FDPs**: We will provide support to organize faculty development programs in topics such as AI/ML in wireless, 5G, and 6G.
 
-- **Research Collaboration**: Faculty members, UG and PG students, and research scholars can collaborate with Basig Wireless Laboratories India on the development of 5G use cases including standard development and research publication in conferences and journals.
+- **Research Collaboration**: Faculty members, UG and PG students, and research scholars can collaborate with BaSig Wireless Laboratories India on the development of 5G use cases including standard development and research publication in conferences and journals.
 
 
 ---

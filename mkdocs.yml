@@ -67,8 +67,8 @@ nav:
       
   - Products:
       - Products-Overview: products/index.md
-      - 5-Nines Radio (5G Testbed): products/5-nines-radio.md
-      - 5-Nines Core: products/5Nines Core.md
+      - 5Nines Radio (5G Testbed): products/5-nines-radio.md
+      - 5Nines Core: products/5Nines Core.md
       - BaSig5G: products/basig5g.md
       - Deep Radio: products/deep-radio.md
       - Wi-Guy: products/wi-guy.md

@@ -8,7 +8,7 @@ High-Performance Cloud-Native 5G Core Network Platform
 
 **5Nines Core (FNC)** is a carrier-grade, cloud-native 5G Core Network platform engineered for ultra-reliable, scalable, and secure next-generation mobile communications.
 
-Built on modern Service-Based Architecture (SBA) principles, Five Nines Core delivers high availability, low latency, intelligent orchestration, and seamless integration for private networks, research labs, telecom operators, defense communication systems, and enterprise 5G deployments.
+Built on modern Service-Based Architecture (SBA) principles, 5Nines Core delivers high availability, low latency, intelligent orchestration, and seamless integration for private networks, research labs, telecom operators, defense communication systems, and enterprise 5G deployments.
 
 The platform is optimized for:
 
@@ -37,7 +37,7 @@ The platform is optimized for:
 
 ## Core Network Functions
 
-Five Nines Core includes:
+5Nines Core includes:
 
 | Network Function | Description |
 |---|---|
@@ -68,7 +68,7 @@ Five Nines Core includes:
 
 ## Security
 
-Five Nines Core integrates enterprise-grade security mechanisms:
+5Nines Core integrates enterprise-grade security mechanisms:
 
 - TLS/HTTPS encrypted APIs
 - Authentication & authorization framework
@@ -147,7 +147,7 @@ Supports:
 
 # Product Vision
 
-Five Nines Core aims to provide:
+5Nines Core aims to provide:
 
 - Open and flexible 5G infrastructure
 - Telecom-grade reliability

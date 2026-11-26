@@ -6,29 +6,7 @@ The company specializes in the development of customized software, wireless comm
 
 Our mission is to bridge the gap between cutting-edge wireless research and practical deployment by delivering reliable, affordable, and industry-ready solutions for academia, research organizations, startups, and enterprises.
 
+---
 
-
-# Contact Us
-
-## Registered Address
-
-**BaSig Wireless Laboratories India Pvt. Ltd.**  
-68/5, Keelaparasalur, Melakattalai, Arupathy  
-Tharangambadi Taluk, Mayiladuthurai District  
-Tamil Nadu - 609309.
-
-## GST - Principal Place of Business
-
-**BaSig Wireless Laboratories India Pvt. Ltd.**  
-1/302, Main Road, Arupathy  
-Tharangambadi Taluk, Mayiladuthurai District  
-Tamil Nadu - 609309.
-
-**GSTIN:** 33AAOCB6314K1ZK
-
-## Email Contacts
-- **General Enquiries:** [info@basigwireless.com](mailto:info@basigwireless.com)  
-- **Sales:** [sales@basigwireless.com](mailto:sales@basigwireless.com)  
-- **Technical Support:** [support@basigwireless.com](mailto:support@basigwireless.com)
-
-
+!!! info "Get in touch"
+    Addresses, GSTIN and email contacts are on our [Contact Us](contact.md) page.

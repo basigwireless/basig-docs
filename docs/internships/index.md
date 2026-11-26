@@ -18,7 +18,7 @@ Internship positions are available for UG and PG students in the areas of Wirele
 ---
 - [**UG & PG Projects at Collaborating Institutes**](ugpgprojects.md)
 - [**Past & Current Internships**](past-current.md)
-- [**Visitng Scholars**](visiting-scholars.md)
+- [**Visiting Scholars**](visiting-scholars.md)
 
 ---
 

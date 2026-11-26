@@ -4,7 +4,7 @@ Research and development of Unmanned Aerial Vehicle (UAV) systems integrated wit
 
 ## Research Overview
 
-**Basig Wireless Laboratories India Pvt. Ltd.** is actively exploring the integration of 5G technologies with UAV platforms to enable next-generation drone applications for industrial, commercial, public safety, and defense-related use cases. The research focuses on leveraging the capabilities of 5G networks—such as ultra-low latency, high bandwidth, massive connectivity, and edge computing—to enhance drone performance, autonomy, and operational efficiency.
+**BaSig Wireless Laboratories India Pvt. Ltd.** is actively exploring the integration of 5G technologies with UAV platforms to enable next-generation drone applications for industrial, commercial, public safety, and defense-related use cases. The research focuses on leveraging the capabilities of 5G networks—such as ultra-low latency, high bandwidth, massive connectivity, and edge computing—to enhance drone performance, autonomy, and operational efficiency.
 
 The objective is to develop intelligent drone ecosystems capable of real-time communication, autonomous decision-making, high-definition video transmission, and seamless interaction with cloud and edge computing infrastructures.
 
@@ -145,7 +145,7 @@ The integration of Mobile Edge Computing with UAV systems enables advanced real-
 
 ## Future Research Directions
 
-Basig Wireless Laboratories India Pvt. Ltd. aims to further advance 5G-enabled UAV technologies through research in:
+BaSig Wireless Laboratories India Pvt. Ltd. aims to further advance 5G-enabled UAV technologies through research in:
 
 - 5G Advanced (5G-A) drone communications
 - AI-native autonomous UAV systems
@@ -169,4 +169,4 @@ The successful integration of 5G and UAV technologies can significantly transfor
 - Scalable UAV ecosystem deployment
 - Advanced smart city and Industry 4.0 applications
 
-Through this research initiative, **Basig Wireless Laboratories India Pvt. Ltd.** seeks to contribute to the development of intelligent, connected, and autonomous aerial systems that leverage the full potential of next-generation wireless communication technologies.
+Through this research initiative, **BaSig Wireless Laboratories India Pvt. Ltd.** seeks to contribute to the development of intelligent, connected, and autonomous aerial systems that leverage the full potential of next-generation wireless communication technologies.
