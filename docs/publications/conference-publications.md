@@ -3,20 +3,19 @@
 Papers presented at IEEE and international conferences, most recent first.
 
 <div class="bw-yearnav" markdown>
-[Recent](#recent) [2026](#2026) [2023](#2023) [2022](#2022) [2021](#2021) [2020](#2020) [2018](#2018) [2017](#2017) [2016](#2016) [2014](#2014) [2013](#2013) [2012](#2012) [2011](#2011) [2009](#2009)
+[2026](#2026) [2023](#2023) [2022](#2022) [2021](#2021) [2020](#2020) [2018](#2018) [2017](#2017) [2016](#2016) [2014](#2014) [2013](#2013) [2012](#2012) [2011](#2011) [2009](#2009)
 </div>
 
 <div class="bw-talks bw-pubs" markdown>
-
-## Recent { #recent }
-
-- **[Experimental Evaluation of Real-Time Video Object Detection Over a 5G MEC Testbed](https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=NL_MEEsAAAAJ&sortby=pubdate&citation_for_view=NL_MEEsAAAAJ:HE397vMXCloC)**  
-  Shivani, N.; Anumas, S.; Ongolu, P.; Boddu, S.; **Chandhar, P.**
 
 ## 2026 { #2026 }
 
 - **[Phase-Interferometry Based Direction-of-Arrival Estimation Using Coherent Software Defined Radios](https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=NL_MEEsAAAAJ&sortby=pubdate&citation_for_view=NL_MEEsAAAAJ:WA5NYHcadZ8C)**  
   Rishit, B. S.; Boddu, S.; **Chandhar, P.**  
+  *International Conference on Emerging Techniques in Computational Intelligence (ICETCI 2026)*
+
+- **[Experimental Evaluation of Real-Time Video Object Detection Over a 5G MEC Testbed](https://scholar.google.co.in/citations?view_op=view_citation&hl=en&user=NL_MEEsAAAAJ&sortby=pubdate&citation_for_view=NL_MEEsAAAAJ:HE397vMXCloC)**  
+  Shivani, N.; Anumas, S.; Ongolu, P.; Boddu, S.; **Chandhar, P.**  
   *International Conference on Emerging Techniques in Computational Intelligence (ICETCI 2026)*
 
 ## 2023 { #2023 }
