@@ -148,6 +148,13 @@ hide:
 </div>
 </section>
 
+<div class="bw-divider bw-reveal" aria-hidden="true">
+<span class="bw-divider__line"></span>
+<img class="bw-divider__wave bw-divider__wave--light" src="assets/images/basig-wave.svg" alt="">
+<img class="bw-divider__wave bw-divider__wave--dark" src="assets/images/basig-wave-dark.svg" alt="">
+<span class="bw-divider__line"></span>
+</div>
+
 <section class="bw-section bw-links bw-reveal" markdown>
 <p class="bw-kicker bw-center">Quick links</p>
 <div class="bw-linkrow" markdown>

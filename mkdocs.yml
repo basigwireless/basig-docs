@@ -113,8 +113,8 @@ nav:
 
   - Talks:
       - Talks-Overview: talks/index.md
-      - Talks: talks/talks.md
-      - Tutorials: talks/tutorials.md
+      - Invited Talks: talks/talks.md
+      - Conference Tutorials: talks/tutorials.md
       - Workshops: talks/workshops.md
  
   - About Us: 
@@ -143,6 +143,9 @@ markdown_extensions:
 
 plugins:
   - search
+
+hooks:
+  - hooks/talks.py
 
 copyright: >
   © 2026 BaSig Wireless Laboratories India Pvt. Ltd. All rights reserved. CIN: U61200TN2026PTC191615 | GSTIN: 33AAOCB6314K1ZK
