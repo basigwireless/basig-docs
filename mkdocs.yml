@@ -147,6 +147,7 @@ plugins:
 hooks:
   - hooks/talks.py
   - hooks/internships.py
+  - hooks/publications.py
 
 copyright: >
   © 2026 BaSig Wireless Laboratories India Pvt. Ltd. All rights reserved. CIN: U61200TN2026PTC191615 | GSTIN: 33AAOCB6314K1ZK
