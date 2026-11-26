@@ -40,7 +40,7 @@ hide:
 <a class="bw-link" href="about/company/">Learn more about us :material-arrow-right:</a>
 </div>
 <div class="bw-about__logo bw-reveal">
-<img src="assets/images/basig_logo_web_sm.png" alt="BaSig Wireless Laboratories">
+<img src="assets/images/basig_logo_web.png" alt="BaSig Wireless Laboratories">
 </div>
 </section>
 

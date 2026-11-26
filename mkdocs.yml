@@ -9,8 +9,8 @@ theme:
   font:
     text: Inter
     code: Roboto Mono
-  logo: assets/images/logo_header.png
-  favicon: assets/images/favicon.png
+  logo: assets/images/basig_logo_white.png
+  favicon: assets/images/favicon.svg
   features:
     - navigation.tabs
     - navigation.sections

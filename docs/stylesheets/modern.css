@@ -625,3 +625,41 @@ body.bw-scrolled .md-header {
     color: #fff !important;
   }
 }
+
+/* Undo forced white drawer / blue text vars from extra.css (palette is fixed now) */
+[data-md-color-scheme] .md-nav--primary { background-color: var(--md-default-bg-color) !important; }
+[data-md-color-scheme] .md-nav__item a { color: var(--md-default-fg-color) !important; }
+[data-md-color-scheme] .md-nav__item a.md-nav__link--active,
+[data-md-color-scheme] .md-nav__item a:hover { color: var(--md-typeset-a-color) !important; }
+[data-md-color-scheme][data-md-color-primary="custom"] {
+  --md-primary-fg-color: #004aad;
+  --md-primary-fg-color--light: #1f6fe0;
+  --md-primary-fg-color--dark: #00357a;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, .7);
+}
+
+/* ---------- BaSig wordmark in header ---------- */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 52px !important;
+  width: auto;
+}
+@media (min-width: 769px) {
+  body.bw-scrolled .md-header__button.md-logo img { height: 42px !important; }
+}
+/* Wordmark already says the name: hide the text title but keep its space for layout */
+.md-header__title { visibility: hidden; margin-left: 0 !important; }
+.md-header__title .md-header__topic { visibility: hidden; }
+/* Show the wordmark on mobile too (Material hides the logo there by default) */
+@media (max-width: 76.234375em) {
+  .md-header__button.md-logo {
+    display: inline-block !important;
+    margin: .2rem .2rem;
+    padding: .2rem 0;
+  }
+  .md-header__button.md-logo img { height: 34px !important; }
+  .md-header__inner > * { order: 2; }
+  .md-header__inner > label.md-header__button[for="__drawer"] { order: 0; }
+  .md-header__inner > .md-header__button.md-logo { order: 1; }
+}
