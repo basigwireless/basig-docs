@@ -1,6 +1,6 @@
 # Publications
 
-Our work is published in IEEE journals and international conferences, alongside books on hands-on wireless systems.
+Our work is published in IEEE journals and international conferences, alongside books on hands-on wireless systems and a patent.
 
 <!-- pubs:stats -->
 
@@ -11,6 +11,8 @@ Our work is published in IEEE journals and international conferences, alongside 
 <a class="bw-card" href="conference-publications/"><span class="bw-card__icon">:material-presentation:</span><strong>Conference Publications</strong><span class="bw-card__desc"><!-- pubs:count:conference --> papers at IEEE and international conferences.</span><span class="bw-card__more">View all :material-arrow-right:</span></a>
 
 <a class="bw-card" href="books-publications/"><span class="bw-card__icon">:material-book-open-page-variant:</span><strong>Books</strong><span class="bw-card__desc"><!-- pubs:count:books --> hands-on books from Chandhar Research Press.</span><span class="bw-card__more">View all :material-arrow-right:</span></a>
+
+<a class="bw-card" href="patents-and-more/"><span class="bw-card__icon">:material-certificate:</span><strong>Patents & More</strong><span class="bw-card__desc">A patent, master's thesis supervision and blog posts.</span><span class="bw-card__more">View all :material-arrow-right:</span></a>
 
 </div>
 

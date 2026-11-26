@@ -82,14 +82,12 @@ nav:
       - Deep Learning for Wireless: workshops/dl-wireless.md
       - 5G Hands-On: workshops/5g-hands-on.md
 
-  - Industry-Oriented Courses (IOCs):
-      - Industry-Oriented Courses (IOCs) & Faculty Industrial Training Programs: iocs/ioc_details.md
-
   - Publications:
       - Publications-Overview: publications/index.md
       - Books: publications/books-publications.md
       - Journal Publications: publications/journal-publications.md
       - Conference Publications: publications/conference-publications.md
+      - Patents & More: publications/patents-and-more.md
 
   - Chandhar Research Press:
       - Chandhar Research Press-Overview: press/index.md

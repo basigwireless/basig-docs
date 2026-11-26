@@ -48,7 +48,9 @@ Peer-reviewed articles in IEEE and other international journals, most recent fir
   **Chandhar, P.**; Das, S. S.  
   *IEEE Access*, vol. 4, pp. 1889–1914, May 2016
 
-## 2014 { #2014 }
+## 2014 { #2014 }  
+  [:material-presentation: Slides](https://sites.google.com/site/prabhuchandhar/Energy_Saving_MOO_v2.pdf?attredirects=0&d=1){ .bw-chip target="_blank" rel="noopener" }
+
 
 - **[Area Spectral Efficiency of Co‑Channel Deployed OFDMA Femtocell Networks](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6810163&isnumber=6850111)**  
   **Chandhar, P.**; Das, S. S.  

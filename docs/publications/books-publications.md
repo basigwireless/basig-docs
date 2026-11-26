@@ -54,7 +54,8 @@ Chandhar Research Press, 2025
 
 Aravind Kilaru, Prabhu Chandhar  
 Chandhar Research Press, 2024  
-**ISBN:** 978‑81‑982943‑9‑5
+**ISBN:** 978‑81‑982943‑9‑5  
+**DOI:** [10.71061/lte_hands_on](https://doi.org/10.71061/lte_hands_on)
 
 [About the book :material-arrow-right:](../press/lte-hands-on.md){ .bw-link }
 </div>
