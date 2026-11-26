@@ -667,36 +667,4 @@ body.demo-fullscreen-open {
 }
 
 
-/* Mobile drawer background */
-[data-md-color-scheme] .md-nav--primary {
-  background-color: #ffffff !important;
-}
-
-/* Drawer links */
-[data-md-color-scheme] .md-nav__item a {
-  color: #000000 !important;
-}
-
-
-/* =========================================
-   OVERRIDE MATERIAL COLOR VARIABLES (FINAL)
-   ========================================= */
-
-:root {
-  --md-primary-fg-color: #004aad;
-  --md-primary-fg-color--dark: #004aad;
-  --md-primary-fg-color--light: #004aad;
-
-  --md-primary-bg-color: #004aad;
-  --md-primary-bg-color--dark: #004aad;
-}
-
-/* Apply to all schemes (mobile + desktop) */
-[data-md-color-scheme] {
-  --md-primary-fg-color: #004aad;
-  --md-primary-fg-color--dark: #004aad;
-  --md-primary-fg-color--light: #004aad;
-
-  --md-primary-bg-color: #004aad;
-  --md-primary-bg-color--dark: #004aad;
-}
+/* (Drawer and palette colour overrides moved to modern.css, which now uses the fixed Material palette) */
