@@ -974,3 +974,34 @@ body.bw-scrolled .md-header {
 [data-md-color-scheme="slate"] .md-typeset .bw-related li > strong:first-child { color: #ff6fbd; }
 .bw-grid--two { grid-template-columns: repeat(2, 1fr); gap: .8rem; }
 @media (max-width: 720px) { .bw-grid--two { grid-template-columns: 1fr; } }
+
+/* ---------- About page v2 ---------- */
+.md-typeset .bw-intro { display: grid; grid-template-columns: 1.5fr 1fr; gap: 2rem; align-items: center; margin: .5rem 0 1.5rem; }
+.md-typeset .bw-intro__text > p:not(.bw-kicker):not(.bw-lead) { color: var(--bw-text-soft); font-size: .82rem; line-height: 1.7; }
+.md-typeset .bw-intro .bw-lead { font-size: 1.25rem; line-height: 1.4; font-weight: 750; letter-spacing: -.01em; }
+.md-typeset .bw-intro .bw-audience p { margin: 1rem 0 0; }
+.md-typeset .bw-intro__logo {
+  padding: 1.8rem; border-radius: var(--bw-radius-lg); background: #fff;
+  border: 1px solid var(--bw-border); box-shadow: var(--bw-shadow);
+}
+.md-typeset .bw-intro__logo img { display: block; width: 100%; height: auto; border-radius: 0 !important; }
+.bw-grid--do { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+@media (max-width: 720px) { .bw-grid--do { grid-template-columns: 1fr; } }
+.md-typeset .bw-mission {
+  margin: 2rem 0 1rem; padding: 2rem 2.2rem; border-radius: var(--bw-radius-lg); color: #fff;
+  background:
+    radial-gradient(500px 220px at 100% 0%, rgba(204, 0, 126, .45), transparent 60%),
+    linear-gradient(135deg, #041633, #00357a 60%, #004aad);
+}
+.md-typeset .bw-mission .bw-kicker { color: #ff9fd3; }
+.md-typeset .bw-mission__text { margin: 0; font-size: 1.12rem; line-height: 1.55; font-weight: 600; letter-spacing: -.005em; }
+.md-typeset .bw-logo-strip {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-around; gap: 1.5rem;
+  padding: 1.2rem 1.5rem; border-radius: var(--bw-radius-lg);
+  border: 1px solid var(--bw-border); background: #fff;
+}
+.md-typeset .bw-logo-strip img { height: 46px; width: auto; border-radius: 0 !important; display: block; }
+@media (max-width: 960px) {
+  .md-typeset .bw-intro { grid-template-columns: 1fr; }
+  .md-typeset .bw-intro__logo { max-width: 20rem; }
+}

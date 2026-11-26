@@ -143,6 +143,7 @@ plugins:
   - search
 
 hooks:
+  - hooks/cachebust.py
   - hooks/talks.py
   - hooks/internships.py
   - hooks/publications.py
