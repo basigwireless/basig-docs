@@ -835,10 +835,8 @@ body.bw-scrolled .md-header {
 .md-typeset .bw-pubs li em { background: none; padding: 0; margin: 0; font-style: italic; font-weight: 500; color: var(--bw-text-soft); font-size: inherit; }
 .md-typeset .bw-badge--invited { color: var(--bw-magenta); background: rgba(204, 0, 126, .1); margin-left: .3rem; vertical-align: middle; }
 [data-md-color-scheme="slate"] .md-typeset .bw-badge--invited { color: #ff6fbd; background: rgba(255, 79, 174, .12); }
-.md-typeset ul.bw-latest--pubs li { grid-template-columns: auto 1fr; }
 .md-typeset ul.bw-latest--pubs strong a { color: var(--bw-heading); text-decoration: none; }
 .md-typeset ul.bw-latest--pubs strong a:hover { color: var(--md-typeset-a-color); text-decoration: underline; }
-.md-typeset ul.bw-latest--pubs .bw-latest__where { grid-column: 2; }
 
 /* Books */
 .md-typeset .bw-books { display: grid; grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); gap: 1.2rem; margin-top: 1.2rem; }
@@ -1005,3 +1003,5 @@ body.bw-scrolled .md-header {
   .md-typeset .bw-intro { grid-template-columns: 1fr; }
   .md-typeset .bw-intro__logo { max-width: 20rem; }
 }
+/* Same-width labels so titles line up in "Latest" lists */
+@media (min-width: 721px) { .md-typeset .bw-latest__tag { min-width: 6.6rem; text-align: center; } }

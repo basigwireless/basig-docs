@@ -27,6 +27,15 @@ def _papers(path, kind):
     return out
 
 
+def _split_date(venue, year):
+    """Split '..., pp. 1-32, Sept. 2024' into ('..., pp. 1-32', 'Sept. 2024').
+    If the venue has no separate date (e.g. '(ICETCI 2026)'), the date is just the year."""
+    parts = [x.strip() for x in venue.rsplit(",", 1)]
+    if len(parts) == 2 and re.search(r"(?:19|20)\d{2}", parts[1]) and not parts[1].endswith("*"):
+        return parts[0], parts[1].rstrip(".")
+    return venue, str(year) if year else ""
+
+
 def on_page_markdown(markdown, page, config, files):
     if page.file.src_uri != "publications/index.md":
         return markdown
@@ -46,9 +55,10 @@ def on_page_markdown(markdown, page, config, files):
         rows = ""
         for p in latest:
             title = f'<a href="{p["url"]}" target="_blank" rel="noopener">{p["title"]}</a>' if p["url"] else p["title"]
-            venue = re.sub(r"\*(.+?)\*", r"<i>\1</i>", p["venue"])
+            venue, when = _split_date(p["venue"], p["key"][0])
+            venue = re.sub(r"\*(.+?)\*", r"<i>\1</i>", venue)
             rows += (f'<li><span class="bw-latest__tag">{p["kind"]}</span><strong>{title}</strong>'
-                     f'<span class="bw-latest__where">{venue}</span></li>')
+                     f'<span class="bw-latest__where">{venue}</span><em>{when}</em></li>')
         markdown = markdown.replace("<!-- pubs:stats -->", stats)
         markdown = markdown.replace("<!-- pubs:latest -->", f'<ul class="bw-latest bw-latest--pubs">{rows}</ul>')
         markdown = markdown.replace("<!-- pubs:count:journal -->", str(len(j)))
