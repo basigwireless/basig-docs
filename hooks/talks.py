@@ -44,7 +44,23 @@ def _entries(path):
     return items
 
 
+def _workshops_latest(markdown, config):
+    try:
+        items = [e for e in _entries(os.path.join(config["docs_dir"], "talks", "workshops.md")) if e["date"]]
+        items.sort(key=lambda e: e["date"], reverse=True)
+        rows = "".join(
+            f'<li><span class="bw-latest__tag">Workshop</span><strong>{e["title"]}</strong>'
+            f'<span class="bw-latest__where">{e["where"]}</span><em>{e["when"]}</em></li>'
+            for e in items[:4])
+        return markdown.replace("<!-- workshops:latest -->", f'<ul class="bw-latest">{rows}</ul>')
+    except Exception as exc:
+        log.warning("workshops list skipped: %s", exc)
+        return markdown
+
+
 def on_page_markdown(markdown, page, config, files):
+    if page.file.src_uri == "workshops/index.md":
+        return _workshops_latest(markdown, config)
     if page.file.src_uri != "talks/index.md":
         return markdown
     try:

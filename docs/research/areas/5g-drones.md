@@ -170,3 +170,13 @@ The successful integration of 5G and UAV technologies can significantly transfor
 - Advanced smart city and Industry 4.0 applications
 
 Through this research initiative, **BaSig Wireless Laboratories India Pvt. Ltd.** seeks to contribute to the development of intelligent, connected, and autonomous aerial systems that leverage the full potential of next-generation wireless communication technologies.
+
+## Related Work at BaSig
+
+<div class="bw-related" markdown>
+
+- **Products:** [Loiter](../../products/loiter.md) 5G‑enabled drone platform
+- **Publications:** *Massive MIMO for Drone Communications* (IEEE Access, 2019), *Massive MIMO for Communications with Drone Swarms* (IEEE TWC, 2018) and related SPAWC and ICUAS papers — [journal papers](../../publications/journal-publications.md#2019), [conference papers](../../publications/conference-publications.md#2018)
+- **Talks:** *Drones in 5G & Beyond: A 3GPP Standards Perspective* and other invited talks — [invited talks](../../talks/talks.md)
+
+</div>

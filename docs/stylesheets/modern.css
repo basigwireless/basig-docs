@@ -925,3 +925,52 @@ body.bw-scrolled .md-header {
 .md-typeset .bw-buybox h2::after { display: none; }
 .md-typeset .bw-buybox p:not(.bw-kicker) { margin: .4rem 0 0; color: rgba(255, 255, 255, .8); font-size: .78rem; }
 .md-typeset .bw-buybox .headerlink { display: none; }
+
+/* =====================================================================
+   ABOUT / GENERIC PAGE HELPERS
+   ===================================================================== */
+.md-typeset p.bw-lead { font-size: 1.05rem; line-height: 1.55; font-weight: 600; color: var(--bw-heading); margin: 0 0 1rem; max-width: 40rem; }
+.md-typeset blockquote.bw-quote {
+  margin: .5rem 0 1rem; padding: 1.2rem 1.4rem; border: none; border-radius: var(--bw-radius);
+  background: var(--bw-tint); color: var(--bw-heading);
+  font-size: .9rem; line-height: 1.65; font-style: italic; position: relative;
+  border-left: 4px solid var(--bw-magenta);
+}
+.md-typeset .bw-members--inline { margin: .4rem 0 0; max-width: none; box-shadow: var(--bw-shadow); justify-content: center; }
+.md-typeset .bw-members--inline .bw-members__logos { justify-content: center; }
+/* Feature row (icon + text) used on Press page */
+.md-typeset .bw-feature {
+  display: grid; grid-template-columns: auto 1fr; gap: 1.2rem; align-items: start;
+  padding: 1.4rem 1.5rem; border-radius: var(--bw-radius-lg);
+  border: 1px solid var(--bw-border); background: var(--bw-surface); box-shadow: var(--bw-shadow);
+}
+.md-typeset .bw-feature > p { margin: 0; }
+.md-typeset .bw-feature__icon {
+  display: inline-grid; place-items: center; width: 3.2rem; height: 3.2rem; border-radius: 14px; color: #fff;
+  background: linear-gradient(135deg, #ff3fa4, #cc007e); box-shadow: 0 6px 14px rgba(204, 0, 126, .28);
+}
+.md-typeset .bw-feature__icon .twemoji { --md-icon-size: 1.6rem; }
+.md-typeset .bw-feature h3 { margin: 0 0 .5rem; }
+.md-typeset .bw-feature p { margin: 0 0 .7rem; font-size: .78rem; color: var(--bw-text-soft); }
+.md-typeset .bw-feature p:last-child { margin: 0; }
+/* Fact tiles (workshop pages) */
+.md-typeset .bw-stats--facts b { font-size: 1.25rem; }
+/* Syllabus modules: reuse timeline cards, plain bullet sub-items */
+.md-typeset .bw-modules li ul { border: none; margin: .4rem 0 0; padding: 0 0 0 1.1rem; list-style: disc; }
+.md-typeset .bw-modules li li {
+  display: list-item; margin: .25rem 0; padding: 0; border: none; border-radius: 0;
+  background: none; box-shadow: none; font-size: .74rem; color: var(--bw-text-soft);
+}
+.md-typeset .bw-modules li li:hover { transform: none; box-shadow: none; }
+.md-typeset .bw-modules li li::before { display: none; }
+.md-typeset .bw-modules > ul > li > p { margin: 0; }
+/* Related work list on research area pages */
+.md-typeset .bw-related ul { list-style: none; margin: 0; padding: 0; }
+.md-typeset .bw-related li {
+  margin: 0 0 .6rem; padding: .8rem 1rem; border-radius: 12px;
+  border: 1px solid var(--bw-border); background: var(--bw-surface); font-size: .76rem; line-height: 1.6;
+}
+.md-typeset .bw-related li > strong:first-child { color: var(--bw-magenta); margin-right: .2rem; }
+[data-md-color-scheme="slate"] .md-typeset .bw-related li > strong:first-child { color: #ff6fbd; }
+.bw-grid--two { grid-template-columns: repeat(2, 1fr); gap: .8rem; }
+@media (max-width: 720px) { .bw-grid--two { grid-template-columns: 1fr; } }
