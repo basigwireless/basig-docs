@@ -11,7 +11,7 @@ hide:
 <canvas class="bw-hero__waves" aria-hidden="true"></canvas>
 <div class="bw-hero__inner">
 <p class="bw-eyebrow bw-reveal">BaSig Wireless Laboratories</p>
-<h1 class="bw-hero__title bw-reveal">Research, innovation &amp; product development in <span class="bw-grad">wireless and SDR systems</span></h1>
+<h1 class="bw-hero__title bw-reveal">Research, Innovation &amp; Product Development in <span class="bw-grad">Wireless and SDR Systems</span></h1>
 <p class="bw-hero__lead bw-reveal">We develop next-generation wireless communication systems that combine 5G &amp; 6G technologies, software-defined radio and AI for wireless, for academic institutions, R&amp;D labs and industry.</p>
 <div class="bw-hero__actions bw-reveal">
 <a class="bw-btn bw-btn--primary" href="products/">Explore products</a>
@@ -35,7 +35,7 @@ hide:
 <section class="bw-section bw-about" markdown>
 <div class="bw-about__text bw-reveal" markdown>
 <p class="bw-kicker">About us</p>
-<h2 class="bw-h2">Wireless technology, from research to product</h2>
+<h2 class="bw-h2">Wireless Technology, from Research to Product</h2>
 <p>BaSig Wireless is a member of leading telecommunications standardisation organisations and industry alliances, actively engaging with the global wireless technology ecosystem and India's 6G vision.</p>
 <a class="bw-link" href="about/company/">Learn more about us :material-arrow-right:</a>
 </div>
@@ -47,7 +47,7 @@ hide:
 <section class="bw-section" markdown>
 <div class="bw-section__head bw-reveal" markdown>
 <p class="bw-kicker">Core focus areas</p>
-<h2 class="bw-h2">What we work on</h2>
+<h2 class="bw-h2">What We Work On</h2>
 </div>
 <div class="bw-grid bw-grid--focus" markdown>
 <div class="bw-tile bw-reveal" markdown><span class="bw-tile__icon">:material-signal-5g:</span><span>5G Advanced and 6G Technologies</span></div>
@@ -70,7 +70,7 @@ hide:
 <section class="bw-section bw-section--tint" markdown>
 <div class="bw-section__head bw-reveal" markdown>
 <p class="bw-kicker">Products</p>
-<h2 class="bw-h2">Platforms for academia, R&amp;D labs and industry</h2>
+<h2 class="bw-h2">Platforms for Academia, R&amp;D Labs and Industry</h2>
 </div>
 <div class="bw-grid bw-grid--cards" markdown>
 <a class="bw-card bw-reveal" href="products/5-nines-radio/"><span class="bw-card__icon">:material-radio-tower:</span><strong>5Nines Radio<sup>®</sup></strong><span class="bw-card__desc">End-to-end 4G/5G testbed for URLLC, eMBB and mMTC research.</span><span class="bw-card__more">View product :material-arrow-right:</span></a>
@@ -98,7 +98,7 @@ hide:
 <section class="bw-section" markdown>
 <div class="bw-section__head bw-reveal" markdown>
 <p class="bw-kicker">Research</p>
-<h2 class="bw-h2">Fundamental and applied research in next-generation wireless</h2>
+<h2 class="bw-h2">Fundamental and Applied Research in Next-Generation Wireless</h2>
 </div>
 <div class="bw-grid bw-grid--research" markdown>
 <a class="bw-pill-card bw-reveal" href="research/areas/5g-use-cases/">:material-cellphone-wireless: 5G Use Cases</a>
