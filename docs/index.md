@@ -12,7 +12,7 @@ hide:
 <div class="bw-hero__inner">
 <p class="bw-eyebrow bw-reveal">BaSig Wireless Laboratories</p>
 <h1 class="bw-hero__title bw-reveal">Research, Innovation &amp; Product Development in <span class="bw-grad">Wireless and SDR Systems</span></h1>
-<p class="bw-hero__lead bw-reveal">We develop next-generation wireless communication systems that combine 5G &amp; 6G technologies, software-defined radio and AI for wireless, for academic institutions, R&amp;D labs and industry.</p>
+<p class="bw-hero__lead bw-reveal">From 5G &amp; 6G to software-defined radio and AI-native wireless, we turn research into testbeds and products for academia, R&amp;D labs and industry.</p>
 <div class="bw-hero__actions bw-reveal">
 <a class="bw-btn bw-btn--primary" href="products/">Explore products</a>
 <a class="bw-btn bw-btn--ghost" href="about/contact/">Get in touch</a>
