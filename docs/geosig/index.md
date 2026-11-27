@@ -4,7 +4,7 @@ title: GeoSig – Cellular Signal Logger and Analytics
 
 # GeoSig – Cellular Signal Logger and Analytics
 
-![GeoSig – 5G & LTE RF Field Survey & Coverage Map](geosig-banner.jpg){ .bw-geo-banner }
+![GeoSig – Cellular Signal Logger & Analytics](geosig-banner.jpg){ .bw-geo-banner }
 
 <p class="bw-lead">A 5G/LTE RF field-survey app and live coverage map: record cellular signal quality with GPS on any Android phone, analyse it on the spot, and see every survey on a shared web map.</p>
 
