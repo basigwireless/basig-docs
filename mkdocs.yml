@@ -77,7 +77,6 @@ nav:
       - 5NR-NSMEC: products/5nr-nsmec.md
       - 5G Enabled E-Vehicle: products/5g-ev.md
 
-  - GeoSig: geosig/index.md
   - Workshops:
       - Workshops-Overview: workshops/index.md
       - Deep Learning for Wireless: workshops/dl-wireless.md
@@ -90,6 +89,7 @@ nav:
       - Conference Publications: publications/conference-publications.md
       - Patents & More: publications/patents-and-more.md
 
+  - GeoSig: geosig/index.md
   - Chandhar Research Press:
       - Chandhar Research Press-Overview: press/index.md
       - Journals:
