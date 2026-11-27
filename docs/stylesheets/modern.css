@@ -1082,3 +1082,7 @@ body.bw-scrolled .md-header {
 .md-typeset .bw-why p.bw-say { margin: 0 0 .5rem; font-size: .78rem; color: var(--bw-text-soft); }
 .md-typeset .bw-why p.bw-say strong { color: var(--bw-heading); letter-spacing: .02em; }
 .md-typeset .bw-why p.bw-say span { margin-left: .35rem; font-family: var(--md-code-font-family); font-size: .72rem; }
+
+/* Keep room for the admonition icon (title padding was overridden above) */
+.md-typeset .admonition > .admonition-title,
+.md-typeset details > summary { padding-left: 2.2rem !important; }
