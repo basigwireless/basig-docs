@@ -14,6 +14,11 @@
 </div>
 </div>
 
+<div class="bw-why" markdown>
+<p class="bw-kicker">Why "BaSig"?</p>
+<p><strong>Ba</strong>seband <strong>Sig</strong>nal, and the <strong>ba</strong>sic <strong>sig</strong>nal. Our name reflects where wireless begins: the baseband signal at the heart of every radio, and the fundamentals of signal theory behind it.</p>
+</div>
+
 ## What We Do
 
 <div class="bw-grid bw-grid--do" markdown>

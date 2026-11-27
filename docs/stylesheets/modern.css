@@ -1068,3 +1068,14 @@ body.bw-scrolled .md-header {
 .md-typeset .bw-books--compact .bw-book__body strong { font-size: .78rem; line-height: 1.35; color: var(--bw-heading); }
 .md-typeset .bw-books--compact .bw-book__body span { font-size: .68rem; color: var(--bw-text-soft); }
 @media (max-width: 720px) { .md-typeset .bw-books--compact { grid-template-columns: repeat(2, 1fr); } }
+/* "Why BaSig?" box (About page) */
+.md-typeset .bw-why {
+  margin: 0 0 1.8rem; padding: 1.2rem 1.4rem; border-radius: var(--bw-radius-lg);
+  background: var(--bw-tint); border: 1px solid var(--bw-border); border-left: 4px solid var(--bw-magenta);
+}
+.md-typeset .bw-why p { margin: 0; font-size: .86rem; line-height: 1.65; color: var(--md-default-fg-color); }
+.md-typeset .bw-why p.bw-kicker { margin-bottom: .35rem; }
+.md-typeset .bw-why strong { color: var(--bw-magenta); }
+[data-md-color-scheme="slate"] .md-typeset .bw-why strong { color: #ff6fbd; }
+.md-typeset .bw-why p.bw-kicker { color: var(--bw-magenta); font-size: .68rem; }
+[data-md-color-scheme="slate"] .md-typeset .bw-why p.bw-kicker { color: #ff6fbd; }
