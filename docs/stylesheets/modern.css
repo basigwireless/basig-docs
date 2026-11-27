@@ -1079,3 +1079,6 @@ body.bw-scrolled .md-header {
 [data-md-color-scheme="slate"] .md-typeset .bw-why strong { color: #ff6fbd; }
 .md-typeset .bw-why p.bw-kicker { color: var(--bw-magenta); font-size: .68rem; }
 [data-md-color-scheme="slate"] .md-typeset .bw-why p.bw-kicker { color: #ff6fbd; }
+.md-typeset .bw-why p.bw-say { margin: 0 0 .5rem; font-size: .78rem; color: var(--bw-text-soft); }
+.md-typeset .bw-why p.bw-say strong { color: var(--bw-heading); letter-spacing: .02em; }
+.md-typeset .bw-why p.bw-say span { margin-left: .35rem; font-family: var(--md-code-font-family); font-size: .72rem; }

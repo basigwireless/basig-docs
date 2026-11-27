@@ -16,6 +16,7 @@
 
 <div class="bw-why" markdown>
 <p class="bw-kicker">Why "BaSig"?</p>
+<p class="bw-say">Pronounced <strong>BAY-sig</strong> <span>/ˈbeɪ.sɪɡ/</span></p>
 <p><strong>Ba</strong>seband <strong>Sig</strong>nal, and the <strong>ba</strong>sic <strong>sig</strong>nal. Our name reflects where wireless begins: the baseband signal at the heart of every radio, and the fundamentals of signal theory behind it.</p>
 </div>
 
