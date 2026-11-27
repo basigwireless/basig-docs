@@ -4,7 +4,7 @@
 <div class="bw-intro__text" markdown>
 <p class="bw-kicker">BaSig Wireless Laboratories</p>
 <p class="bw-lead">We turn cutting-edge wireless research into reliable, affordable, industry-ready products.</p>
-<p>Founded by <a href="https://bio.basigwireless.com"><strong>Dr. Prabhu Chandhar</strong></a> in Mayiladuthurai, Tamil Nadu, BaSig solves challenging problems in telecommunications through research, consultancy and product development.</p>
+<p>Founded by <a href="https://bio.basigwireless.com"><strong>Dr. Prabhu Chandhar</strong></a>, BaSig takes on challenging problems in wireless and telecommunications, from fundamental research and expert consultancy to complete, deployable products.</p>
 <div class="bw-audience" markdown>
 <span>:material-signal-5g: 5G/6G networks</span> <span>:material-sine-wave: Software-defined radio</span> <span>:material-brain: AI-native wireless</span> <span>:material-quadcopter: Drone communications</span>
 </div>
