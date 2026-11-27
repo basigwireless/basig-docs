@@ -11,7 +11,7 @@ hide:
 <canvas class="bw-hero__waves" aria-hidden="true"></canvas>
 <div class="bw-hero__inner">
 <p class="bw-eyebrow bw-reveal">BaSig Wireless Laboratories</p>
-<h1 class="bw-hero__title bw-reveal">Next-Generation<br><span class="bw-grad">Wireless &amp; SDR Systems</span></h1>
+<h1 class="bw-hero__title bw-reveal">Research &amp; Innovation in<br><span class="bw-grad">Wireless Systems</span></h1>
 <p class="bw-hero__lead bw-reveal">From 5G &amp; 6G to software-defined radio and AI-native wireless, we turn research into testbeds and products for academia, R&amp;D labs and industry.</p>
 <div class="bw-hero__actions bw-reveal">
 <a class="bw-btn bw-btn--primary" href="products/">Explore products</a>
