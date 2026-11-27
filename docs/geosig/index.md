@@ -1,8 +1,8 @@
 ---
-title: GeoSig
+title: GeoSig – Cellular Signal Logger and Analytics
 ---
 
-# GeoSig
+# GeoSig – Cellular Signal Logger and Analytics
 
 ![GeoSig – 5G & LTE RF Field Survey & Coverage Map](geosig-banner.jpg){ .bw-geo-banner }
 
@@ -51,24 +51,76 @@ title: GeoSig
 
 ## Screenshots
 
-<div class="bw-shots" markdown>
-<figure markdown>
-![ShadowLab RSRP distribution with Gaussian fit](shadowlab-distribution.jpg){ loading=lazy }
-<figcaption>ShadowLab: RSRP distribution and Gaussian fit</figcaption>
-</figure>
-<figure markdown>
-![ShadowLab shadow fading parameters](shadowlab-parameters.jpg){ loading=lazy }
-<figcaption>ShadowLab: shadow-fading parameters</figcaption>
-</figure>
-<figure markdown>
-![ITU PropLab estimated distance to cell](itu-proplab.jpg){ loading=lazy }
-<figcaption>ITU PropLab: estimated distance to the cell</figcaption>
-</figure>
-</div>
+=== "Live"
+
+    <div class="bw-shots" markdown>
+    <figure markdown>
+    ![Serving-cell signal quality and cell identity](live-signal.jpg){ loading=lazy }
+    <figcaption>Serving-cell signal quality and cell identity</figcaption>
+    </figure>
+    <figure markdown>
+    ![Cellular latency and jitter probe](live-latency.jpg){ loading=lazy }
+    <figcaption>Cellular latency and jitter probe</figcaption>
+    </figure>
+    </div>
+
+=== "Neighbors & Handover"
+
+    <div class="bw-shots" markdown>
+    <figure markdown>
+    ![Handover health and serving vs. neighbor cells](neighbors-handover.jpg){ loading=lazy }
+    <figcaption>Handover health and serving vs. neighbor cells</figcaption>
+    </figure>
+    </div>
+
+=== "ShadowLab"
+
+    <div class="bw-shots" markdown>
+    <figure markdown>
+    ![500-sample shadow-fading capture](shadowlab-capture.jpg){ loading=lazy }
+    <figcaption>500-sample shadow-fading capture</figcaption>
+    </figure>
+    <figure markdown>
+    ![RSRP distribution with Gaussian fit](shadowlab-distribution.jpg){ loading=lazy }
+    <figcaption>RSRP distribution with Gaussian fit</figcaption>
+    </figure>
+    <figure markdown>
+    ![Shadow-fading parameters and insight](shadowlab-insight.jpg){ loading=lazy }
+    <figcaption>Shadow-fading parameters and insight</figcaption>
+    </figure>
+    </div>
+
+=== "ITU PropLab"
+
+    <div class="bw-shots" markdown>
+    <figure markdown>
+    ![ITU-R M.2135 scenario and estimated distance](itu-scenarios.jpg){ loading=lazy }
+    <figcaption>ITU-R M.2135 scenario and estimated distance</figcaption>
+    </figure>
+    <figure markdown>
+    ![Path loss vs. distance curves](itu-pathloss.jpg){ loading=lazy }
+    <figcaption>Path loss vs. distance curves</figcaption>
+    </figure>
+    <figure markdown>
+    ![All ITU scenarios compared](itu-comparison.jpg){ loading=lazy }
+    <figcaption>All ITU scenarios compared</figcaption>
+    </figure>
+    </div>
+
+=== "Settings & Export"
+
+    <div class="bw-shots" markdown>
+    <figure markdown>
+    ![CSV export and About GeoSig](settings-export.jpg){ loading=lazy }
+    <figcaption>CSV export and About GeoSig</figcaption>
+    </figure>
+    </div>
 
 ## Live Coverage Map (Web)
 
 Open [geosig.basigwireless.com](https://geosig.basigwireless.com){ target="_blank" rel="noopener" } in any browser to see all synced readings.
+
+![GeoSig live coverage map showing survey routes across South India](web-map.jpg){ .bw-geo-web loading=lazy }
 
 <div class="bw-related" markdown>
 

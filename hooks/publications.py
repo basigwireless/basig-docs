@@ -47,9 +47,9 @@ def on_page_markdown(markdown, page, config, files):
             books = len(re.findall(r'class="bw-book"', fh.read()))
         first = min(p["key"][0] for p in j + c if p["key"][0])
         stats = ('<div class="bw-stats">'
+                 f'<div><b>{books}</b><span>Books</span></div>'
                  f'<div><b>{len(j)}</b><span>Journal articles</span></div>'
                  f'<div><b>{len(c)}</b><span>Conference papers</span></div>'
-                 f'<div><b>{books}</b><span>Books</span></div>'
                  f'<div><b>{first}</b><span>Publishing since</span></div></div>')
         latest = sorted(j + c, key=lambda p: p["key"], reverse=True)[:4]
         rows = ""
